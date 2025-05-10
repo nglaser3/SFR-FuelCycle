@@ -1,0 +1,161 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{multicol}
+
+\usepackage[margin=1in]{geometry}
+\renewcommand{\arraystretch}{1.5}
+\newcommand{\cel}{$^o$C}
+\begin{document}
+
+\section{SFR-Design}
+
+\subsection{Materials}
+\subsubsection{Fuel}
+
+\begin{table}[htbp]
+    \centering
+    \caption{Material Temperatures}
+    \begin{tabular}{cccccc}
+        \bottomrule
+        Material & Fuel & Fuel Bond & Cladding & Coolant & Structure\\
+        \toprule
+        \bottomrule
+        Top of Core (\cel) & 585 & 575 & 560 & 510 & 505 \\
+        Bottom of Core (\cel) & 430 & 420 & 405 & 355 & 350\\
+        \toprule
+        \bottomrule
+        Average (\cel) & 507.5 & 497.5 & 482.5 & 432.5 & 427.5\\
+        \toprule
+    \end{tabular}
+\end{table}
+
+Ignoring U-234.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Fuel Compositions}
+    \begin{tabular}{ccccc}
+        \bottomrule
+        Fuel Type & No. Assemblies & Enrichment of U (at\%) & Enrichment of Zr & Composition (wt\%)\\
+        \toprule
+        \bottomrule
+        Inner Fuel & 30 & 10.9 & Natural & .9U-.1Zr \\
+        Middle Fuel & 33 & 12.4 & Natural & .9U-.1Zr \\
+        Outer Fuel & 36 & 15.5 & Natural & .9U-.1Zr \\
+        \toprule
+    \end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+    \centering
+    \caption{Fuel Density}
+    \begin{tabular}{cc}
+        \bottomrule
+        Element & Temperature Correlation \\
+        \toprule
+        \bottomrule
+        Uranium & $19360-1.03347\cdot T$\\
+        Zirconium & $6550 - 0.1685\cdot T$\\
+        \toprule
+    \end{tabular}
+\end{table}
+
+\subsubsection{Fuel Bond and Coolant}
+
+Same make-up, Natural sodium
+
+\begin{table}[htbp]
+    \centering
+    \caption{Sodium Density}
+    \begin{tabular}{cccccccc}
+        \bottomrule
+        Temperature (\cel) & 126.85 & 226.85 & 326.85 & 426.85 & 526.85 & 626.85 & 726.85 \\
+        Density & 919 & 897 & 874 & 852 & 828 & 805 & 781\\
+        \toprule
+    \end{tabular}
+\end{table}
+
+\subsubsection{Cladding}
+
+natural composition of each
+
+\begin{table}[htbp]
+    \centering
+    \caption{Cladding Composition}
+    \begin{tabular}{cc}
+        Element & Composition (wt\%)\\
+        \toprule
+        \bottomrule
+        Fe & 85.007 \\
+        Cr & 11.79 \\
+        Mo & 0.99 \\
+        Mn & 0.59 \\
+        Ni & 0.53 \\
+        W & 0.45 \\
+        V & 0.31 \\
+        C & 0.19 \\
+        Si & 0.10 \\
+        Nb & 0.02 \\
+        P & 0.019 \\
+        N & 0.01 \\
+        S & 0.004 \\
+        \toprule
+    \end{tabular}
+\end{table}
+
+\begin{align}
+    \rho_0 &= 7700\ \text{kg/m$^3$}\\
+    T_0 &= 25 \text{\cel}\\
+    \alpha_L &= -0.4247 + 1.282\times10^{-3}\cdot T + 7.362\times10^{-7}\cdot T^2 - 2.069\times10^{-10}T^3\\
+    \rho_{HT9} &= \frac{\rho_0}{1 + 3\alpha_L (T - T_0)}
+\end{align}
+
+\subsubsection{Control Rods}
+
+B4C, both at natural. Same density method as for cladding, but $\rho_0$ is 2520. 
+
+\subsubsection{GEM gas}
+Argon, density at 1MPa --- not sure if I should use this or model as 'None' fill.
+
+\subsection{Geometry}
+
+\begin{table}[htbp]
+    \centering
+    \caption{General Parameters}
+    \begin{tabular}{cc}
+        Parameter & Value (cm)\\
+        \toprule
+        \bottomrule
+        \multicolumn{2}{c}{Core}\\
+        \toprule
+        \bottomrule
+        Core Height  & 150.0 \\
+        Core Diameter & 277.6\\
+        \toprule
+        \bottomrule
+        \multicolumn{2}{c}{Assembly}\\
+        \toprule
+        \bottomrule
+        Inner Assembly Edge Length & 9.815\\
+        Outer Assembly Edge Length & 9.915\\
+        Inner Assembly Diamter & 17.0 \\
+        Outer Assembly Diamter & 17.173\\
+        Assembly Pitch & 17.173\\
+        \toprule
+    \end{tabular}
+\end{table}
+
+\subsubsection{Fuel pins}
+\begin{table}[htbp]
+    \centering
+    \caption{Fuel Pin Parameters}
+    \begin{tabular}{cccccc}
+        Paramter & Fuel Diameter & Inner-Clad Diameter & Outer-Clad Diameter & Pitch & No. Per Assembly\\
+        Value (cm)& 1.126 & 1.300 & 1.400 & 1.501 & 127\\ 
+        \toprule
+    \end{tabular}
+\end{table}
+
+\end{document}

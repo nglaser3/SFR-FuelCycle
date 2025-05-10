@@ -148,6 +148,7 @@ Argon, density at 1MPa --- not sure if I should use this or model as 'None' fill
 \end{table}
 
 \subsubsection{Fuel pins}
+7 rows per assembly
 \begin{table}[htbp]
     \centering
     \caption{Fuel Pin Parameters}
@@ -157,5 +158,25 @@ Argon, density at 1MPa --- not sure if I should use this or model as 'None' fill
         \toprule
     \end{tabular}
 \end{table}
+
+\subsubsection{Control Rods}
+
+\begin{table}
+    \centering
+    \caption{Control Rod Parameters}
+    \begin{tabular}{ccc}
+        \toprule
+        \bottomrule
+        Parameter (cm) & Primary Control Rod & Secondary Control Rod\\
+        \toprule
+        \bottomrule
+        Rod Diameter & 1.300 & 1.950 \\
+        Cladding Diameter & 1.400 & 2.050\\
+        Rod Pitch & 1.801 & 2.877\\
+        Number of Rows & 6 & 4 \\
+        Rods Per Assembly & 91 & 37
+    \end{tabular}
+\end{table}
+
 
 \end{document}

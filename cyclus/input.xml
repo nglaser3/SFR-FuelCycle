@@ -1,0 +1,172 @@
+<simulation>
+<!-- Settings -->
+	<control>
+		<duration>720</duration>
+		<startmonth>1</startmonth>
+		<startyear>2025</startyear>
+		<decay>never</decay>
+	</control>
+
+<!-- Archs -->
+	<archetypes>
+		<spec>
+		<!-- Mine -->
+			<lib>cycamore</lib>
+			<name>Source</name>
+		</spec>
+		<!-- Enrichment facility-->
+		<spec>
+			<lib>cycamore</lib>
+			<name>Enrichment</name>
+		</spec>
+		<!-- the SFR -->
+		<spec>
+			<lib>openmcyclus.DepleteReactor</lib>
+			<name>DepleteReactor</name>
+		</spec>
+		<!-- Repo -->
+		<spec>
+			<lib>cycamore</lib>
+			<name>Sink</lib>
+		</spec>
+	<!-- ASKKKKK-->
+		<!-- Deploys Things -->
+		<spec>
+			<lib>cycamore</lib>
+			<name>DeployInst</lib>
+		</spec>
+		<!-- No clue lol read the docs but confused -->
+		<spec>
+			<lib>agents</lib>
+			<name>NullRegion</lib>
+		</spec>
+		<!-- No clue, read the docs but confused -->
+		<spec>
+			<lib>agents</lib>
+			<name>NullInst</lib>
+		</spec>
+	</archetypes>
+	
+<!-- Recipes -->
+	<recipe>
+    	<name>nat_u</name>
+    	<basis>mass</basis>
+		<nuclide>
+			<id>92235</id>
+			<comp>0.00711</comp>
+		</nuclide>
+		<nuclide>
+			<id>92238</id>
+			<comp>0.99289</comp>
+		</nuclide>
+	</recipe>
+
+	<recipe>
+		<name>in_fuel_inner</name>
+		<basis>mass</basis>
+		<nuclide>
+			<id>40090</id>
+			<comp>0.050706117509233165</comp>
+		</nuclide>
+		<nuclide>
+			<id>40091</id>
+			<comp>0.011180887453100785</comp>
+		</nuclide>
+		<nuclide>
+			<id>40092</id>
+			<comp>0.01727810146362816</comp>
+		</nuclide>
+		<nuclide>
+			<id>40094</id>
+			<comp>0.017891104342343415</comp>
+		</nuclide>
+		<nuclide>
+			<id>40096</id>
+			<comp>0.0029437892316944896</comp>
+		</nuclide>
+		<nuclide>
+			<id>92235</id>
+			<comp>0.09699442432578358</comp>
+		</nuclide>
+		<nuclide>
+			<id>92238</id>
+			<comp>0.8030055756742165</comp>
+		</nuclide>
+	</recipe>
+
+	<recipe>
+		<name>in_fuel_middle</name>
+		<basis>mass</basis>
+		<nuclide>
+			<id>40090</id>
+			<comp>0.050706117509233165</comp>
+		</nuclide>
+		<nuclide>
+			<id>40091</id>
+			<comp>0.011180887453100785</comp>
+		</nuclide>
+		<nuclide>
+			<id>40092</id>
+			<comp>0.01727810146362816</comp>
+		</nuclide>
+		<nuclide>
+			<id>40094</id>
+			<comp>0.017891104342343415</comp>
+		</nuclide>
+		<nuclide>
+			<id>40096</id>
+			<comp>0.0029437892316944896</comp>
+		</nuclide>
+		<nuclide>
+			<id>92235</id>
+			<comp>0.11036321995419741</comp>
+		</nuclide>
+		<nuclide>
+			<id>92238</id>
+			<comp>0.7896367800458026</comp>
+		</nuclide>
+	</recipe>
+
+	<recipe>
+		<name>in_fuel_outer</name>
+		<basis>mass</basis>
+		<nuclide>
+			<id>40090</id>
+			<comp>0.050706117509233165</comp>
+		</nuclide>
+		<nuclide>
+			<id>40091</id>
+			<comp>0.011180887453100785</comp>
+		</nuclide>
+		<nuclide>
+			<id>40092</id>
+			<comp>0.01727810146362816</comp>
+		</nuclide>
+		<nuclide>
+			<id>40094</id>
+			<comp>0.017891104342343415</comp>
+		</nuclide>
+		<nuclide>
+			<id>40096</id>
+			<comp>0.0029437892316944896</comp>
+		</nuclide>
+		<nuclide>
+			<id>92235</id>
+			<comp>0.13800814903105213</comp>
+		</nuclide>
+		<nuclide>
+			<id>92238</id>
+			<comp>0.7619918509689478</comp>
+		</nuclide>
+	</recipe>
+	
+<!-- Facilities -->
+	<facility>
+	<name>Source</name>
+	<config>
+		<Source>
+			<outcommod>natural_u</outcommod>
+			
+</simulation>
+
+

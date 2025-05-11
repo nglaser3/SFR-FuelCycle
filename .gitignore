@@ -1,4 +1,5 @@
 .ipynb_checkpoints
+nohup.out
 .vscode
 .DS_Store
 *.pdf

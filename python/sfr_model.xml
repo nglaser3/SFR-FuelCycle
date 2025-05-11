@@ -466,12 +466,12 @@
   </geometry>
   <settings>
     <run_mode>eigenvalue</run_mode>
-    <particles>1000000</particles>
+    <particles>200000</particles>
     <batches>250</batches>
     <inactive>50</inactive>
     <source particle="neutron" strength="1.0" type="independent">
       <space type="box">
-        <parameters>-277.6 -277.6 0 277.6 277.6 150.0</parameters>
+        <parameters>-138.8 -138.8 0 138.8 138.8 150.0</parameters>
       </space>
       <constraints>
         <fissionable>true</fissionable>

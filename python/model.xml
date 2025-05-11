@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='utf-8'?>
+<model>
+  <materials>
+    <material depletable="true" id="1" name="fuel_inner" temperature="507.5">
+      <density units="kg/m3" value="16058.2182507375"/>
+      <nuclide name="Zr90" wo="0.050706117509233165"/>
+      <nuclide name="Zr91" wo="0.011180887453100785"/>
+      <nuclide name="Zr92" wo="0.01727810146362816"/>
+      <nuclide name="Zr94" wo="0.017891104342343415"/>
+      <nuclide name="Zr96" wo="0.0029437892316944896"/>
+      <nuclide name="U235" wo="0.09699442432578358"/>
+      <nuclide name="U238" wo="0.8030055756742165"/>
+    </material>
+    <material depletable="true" id="2" name="fuel_middle" temperature="507.5">
+      <density units="kg/m3" value="16058.2182507375"/>
+      <nuclide name="Zr90" wo="0.050706117509233165"/>
+      <nuclide name="Zr91" wo="0.011180887453100785"/>
+      <nuclide name="Zr92" wo="0.01727810146362816"/>
+      <nuclide name="Zr94" wo="0.017891104342343415"/>
+      <nuclide name="Zr96" wo="0.0029437892316944896"/>
+      <nuclide name="U235" wo="0.11036321995419741"/>
+      <nuclide name="U238" wo="0.7896367800458026"/>
+    </material>
+    <material depletable="true" id="3" name="fuel_outer" temperature="507.5">
+      <density units="kg/m3" value="16058.2182507375"/>
+      <nuclide name="Zr90" wo="0.050706117509233165"/>
+      <nuclide name="Zr91" wo="0.011180887453100785"/>
+      <nuclide name="Zr92" wo="0.01727810146362816"/>
+      <nuclide name="Zr94" wo="0.017891104342343415"/>
+      <nuclide name="Zr96" wo="0.0029437892316944896"/>
+      <nuclide name="U235" wo="0.13800814903105213"/>
+      <nuclide name="U238" wo="0.7619918509689478"/>
+    </material>
+    <material id="4" name="bond" temperature="497.5">
+      <density units="kg/m3" value="835.044"/>
+      <nuclide ao="1.0" name="Na23"/>
+    </material>
+    <material id="5" name="coolant" temperature="432.5">
+      <density units="kg/m3" value="850.644"/>
+      <nuclide ao="1.0" name="Na23"/>
+    </material>
+    <material id="6" name="cladding" temperature="482.5">
+      <density units="kg/m3" value="16.36845326511752"/>
+      <nuclide name="Fe54" wo="4.799119678376417"/>
+      <nuclide name="Fe56" wo="78.12273256964266"/>
+      <nuclide name="Fe57" wo="1.8364645474263983"/>
+      <nuclide name="Fe58" wo="0.24868320455453394"/>
+      <nuclide name="Cr50" wo="0.4920776528184891"/>
+      <nuclide name="Cr52" wo="9.86815482122368"/>
+      <nuclide name="Cr53" wo="1.140515885921804"/>
+      <nuclide name="Cr54" wo="0.2892516400360264"/>
+      <nuclide name="Mo92" wo="0.13891572466590602"/>
+      <nuclide name="Mo94" wo="0.08901405196823728"/>
+      <nuclide name="Mo95" wo="0.15543459745140178"/>
+      <nuclide name="Mo96" wo="0.16498682987846994"/>
+      <nuclide name="Mo97" wo="0.09580819552455132"/>
+      <nuclide name="Mo98" wo="0.24539498632783927"/>
+      <nuclide name="Mo100" wo="0.1004456141835944"/>
+      <nuclide name="Mn55" wo="0.59"/>
+      <nuclide name="Ni58" wo="0.35614783807192646"/>
+      <nuclide name="Ni60" wo="0.14191260336591668"/>
+      <nuclide name="Ni61" wo="0.006271803152072564"/>
+      <nuclide name="Ni62" wo="0.020324558208482"/>
+      <nuclide name="Ni64" wo="0.00534319720160235"/>
+      <nuclide name="W180" wo="0.0005285589891267668"/>
+      <nuclide name="W182" wo="0.11802172264329296"/>
+      <nuclide name="W183" wo="0.06408271137801115"/>
+      <nuclide name="W184" wo="0.13796186439322397"/>
+      <nuclide name="W186" wo="0.1294051425963452"/>
+      <nuclide name="V50" wo="0.0007598730410498932"/>
+      <nuclide name="V51" wo="0.3092401269589501"/>
+      <nuclide name="C0" wo="0.19"/>
+      <nuclide name="Si28" wo="0.09187351728283677"/>
+      <nuclide name="Si29" wo="0.004831750292786396"/>
+      <nuclide name="Si30" wo="0.0032947324243768426"/>
+      <nuclide name="Nb93" wo="0.02"/>
+      <nuclide name="P31" wo="0.019"/>
+      <nuclide name="N14" wo="0.009960772133092956"/>
+      <nuclide name="N15" wo="3.922786690704343e-05"/>
+      <nuclide name="S32" wo="0.0037907444323310342"/>
+      <nuclide name="S33" wo="3.0795277510161415e-05"/>
+      <nuclide name="S34" wo="0.00017780609603504092"/>
+      <nuclide name="S36" wo="6.541941237634813e-07"/>
+    </material>
+    <material id="7" name="control_rod" temperature="450.0">
+      <density units="kg/m3" value="6.978790480395646"/>
+      <nuclide ao="0.8" name="C0"/>
+      <nuclide ao="0.03964" name="B10"/>
+      <nuclide ao="0.16036" name="B11"/>
+    </material>
+  </materials>
+  <geometry>
+    <cell id="1" material="1" name="Fuel" region="-1" universe="1"/>
+    <cell id="2" material="4" name="Bond" region="1 -2" universe="1"/>
+    <cell id="3" material="6" name="Fuel Clad" region="2 -3" universe="1"/>
+    <cell id="4" material="5" name="Fuel Coolant" region="3" universe="1"/>
+    <cell id="5" material="5" universe="3"/>
+    <cell fill="2" id="6" region="-4 5 -6 -7 8 9" universe="4"/>
+    <cell id="7" material="6" region="~(-4 5 -6 -7 8 9) (-10 11 -12 -13 14 15)" universe="4"/>
+    <cell id="8" material="2" name="Fuel" region="-16" universe="5"/>
+    <cell id="9" material="4" name="Bond" region="16 -17" universe="5"/>
+    <cell id="10" material="6" name="Fuel Clad" region="17 -18" universe="5"/>
+    <cell id="11" material="5" name="Fuel Coolant" region="18" universe="5"/>
+    <cell id="12" material="5" universe="7"/>
+    <cell fill="6" id="13" region="-19 20 -21 -22 23 24" universe="8"/>
+    <cell id="14" material="6" region="~(-19 20 -21 -22 23 24) (-25 26 -27 -28 29 30)" universe="8"/>
+    <cell id="15" material="3" name="Fuel" region="-31" universe="9"/>
+    <cell id="16" material="4" name="Bond" region="31 -32" universe="9"/>
+    <cell id="17" material="6" name="Fuel Clad" region="32 -33" universe="9"/>
+    <cell id="18" material="5" name="Fuel Coolant" region="33" universe="9"/>
+    <cell id="19" material="5" universe="11"/>
+    <cell fill="10" id="20" region="-34 35 -36 -37 38 39" universe="12"/>
+    <cell id="21" material="6" region="~(-34 35 -36 -37 38 39) (-40 41 -42 -43 44 45)" universe="12"/>
+    <cell id="22" material="7" name="Control Rod" region="-46" universe="13"/>
+    <cell id="23" material="6" name="CR Clad" region="46 -47" universe="13"/>
+    <cell id="24" material="5" name="CR Coolant" region="47" universe="13"/>
+    <cell id="25" material="5" universe="15"/>
+    <cell fill="14" id="26" region="-48 49 -50 -51 52 53 61" universe="16"/>
+    <cell id="27" material="6" region="~(-48 49 -50 -51 52 53) (-54 55 -56 -57 58 59) 61" universe="16"/>
+    <cell id="28" material="6" region="-54 55 -56 -57 58 59 60 -61" universe="16"/>
+    <cell id="29" material="5" region="-54 55 -56 -57 58 59 -60" universe="16"/>
+    <cell id="30" material="7" name="Control Rod" region="-62" universe="17"/>
+    <cell id="31" material="6" name="CR Clad" region="62 -63" universe="17"/>
+    <cell id="32" material="5" name="CR Coolant" region="63" universe="17"/>
+    <cell id="33" material="5" universe="19"/>
+    <cell fill="18" id="34" region="-64 65 -66 -67 68 69 77" universe="20"/>
+    <cell id="35" material="6" region="~(-64 65 -66 -67 68 69) (-70 71 -72 -73 74 75) 77" universe="20"/>
+    <cell id="36" material="6" region="-70 71 -72 -73 74 75 76 -77" universe="20"/>
+    <cell id="37" material="5" region="-70 71 -72 -73 74 75 -76" universe="20"/>
+    <cell id="38" material="6" name="Reflector" region="-78" universe="21"/>
+    <cell id="39" material="5" name="CR Coolant" region="78" universe="21"/>
+    <cell id="40" material="5" universe="23"/>
+    <cell fill="22" id="41" region="-79 80 -81 -82 83 84" universe="24"/>
+    <cell id="42" material="6" region="~(-79 80 -81 -82 83 84) (-85 86 -87 -88 89 90)" universe="24"/>
+    <cell id="43" material="6" name="Reflector" region="-91" universe="25"/>
+    <cell id="44" material="5" name="CR Coolant" region="91" universe="25"/>
+    <cell id="45" material="5" universe="27"/>
+    <cell fill="26" id="46" region="-92 93 -94 -95 96 97" universe="28"/>
+    <cell id="47" material="6" region="~(-92 93 -94 -95 96 97) (-98 99 -100 -101 102 103)" universe="28"/>
+    <cell id="48" material="5" name="All Coolant" region="-104 105 -106 -107 108 109" universe="29"/>
+    <cell id="49" material="6" name="AC Clad" region="-110 111 -112 -113 114 115 ~(-104 105 -106 -107 108 109)" universe="29"/>
+    <cell id="50" material="void" name="Empty" region="-116 117 -118 -119 120 121" universe="30"/>
+    <cell id="51" material="void" universe="32"/>
+    <cell fill="31" id="52" region="-122 123 -124 -125 126 127 129 -128" universe="33"/>
+    <hex_lattice id="2" n_rings="7">
+      <pitch>1.501</pitch>
+      <outer>3</outer>
+      <center>0.0 0.0</center>
+      <universes>
+      1
+     1 1
+    1 1 1
+   1 1 1 1
+  1 1 1 1 1
+ 1 1 1 1 1 1
+1 1 1 1 1 1 1
+ 1 1 1 1 1 1
+1 1 1 1 1 1 1
+ 1 1 1 1 1 1
+1 1 1 1 1 1 1
+ 1 1 1 1 1 1
+1 1 1 1 1 1 1
+ 1 1 1 1 1 1
+1 1 1 1 1 1 1
+ 1 1 1 1 1 1
+1 1 1 1 1 1 1
+ 1 1 1 1 1 1
+1 1 1 1 1 1 1
+ 1 1 1 1 1 1
+  1 1 1 1 1
+   1 1 1 1
+    1 1 1
+     1 1
+      1</universes>
+    </hex_lattice>
+    <hex_lattice id="6" n_rings="7">
+      <pitch>1.501</pitch>
+      <outer>7</outer>
+      <center>0.0 0.0</center>
+      <universes>
+      5
+     5 5
+    5 5 5
+   5 5 5 5
+  5 5 5 5 5
+ 5 5 5 5 5 5
+5 5 5 5 5 5 5
+ 5 5 5 5 5 5
+5 5 5 5 5 5 5
+ 5 5 5 5 5 5
+5 5 5 5 5 5 5
+ 5 5 5 5 5 5
+5 5 5 5 5 5 5
+ 5 5 5 5 5 5
+5 5 5 5 5 5 5
+ 5 5 5 5 5 5
+5 5 5 5 5 5 5
+ 5 5 5 5 5 5
+5 5 5 5 5 5 5
+ 5 5 5 5 5 5
+  5 5 5 5 5
+   5 5 5 5
+    5 5 5
+     5 5
+      5</universes>
+    </hex_lattice>
+    <hex_lattice id="10" n_rings="7">
+      <pitch>1.501</pitch>
+      <outer>11</outer>
+      <center>0.0 0.0</center>
+      <universes>
+      9
+     9 9
+    9 9 9
+   9 9 9 9
+  9 9 9 9 9
+ 9 9 9 9 9 9
+9 9 9 9 9 9 9
+ 9 9 9 9 9 9
+9 9 9 9 9 9 9
+ 9 9 9 9 9 9
+9 9 9 9 9 9 9
+ 9 9 9 9 9 9
+9 9 9 9 9 9 9
+ 9 9 9 9 9 9
+9 9 9 9 9 9 9
+ 9 9 9 9 9 9
+9 9 9 9 9 9 9
+ 9 9 9 9 9 9
+9 9 9 9 9 9 9
+ 9 9 9 9 9 9
+  9 9 9 9 9
+   9 9 9 9
+    9 9 9
+     9 9
+      9</universes>
+    </hex_lattice>
+    <hex_lattice id="14" n_rings="6">
+      <pitch>1.801</pitch>
+      <outer>15</outer>
+      <center>0.0 0.0</center>
+      <universes>
+          13
+        13  13
+      13  13  13
+    13  13  13  13
+  13  13  13  13  13
+13  13  13  13  13  13
+  13  13  13  13  13
+13  13  13  13  13  13
+  13  13  13  13  13
+13  13  13  13  13  13
+  13  13  13  13  13
+13  13  13  13  13  13
+  13  13  13  13  13
+13  13  13  13  13  13
+  13  13  13  13  13
+13  13  13  13  13  13
+  13  13  13  13  13
+    13  13  13  13
+      13  13  13
+        13  13
+          13</universes>
+    </hex_lattice>
+    <hex_lattice id="18" n_rings="4">
+      <pitch>2.877</pitch>
+      <outer>19</outer>
+      <center>0.0 0.0</center>
+      <universes>
+      17
+    17  17
+  17  17  17
+17  17  17  17
+  17  17  17
+17  17  17  17
+  17  17  17
+17  17  17  17
+  17  17  17
+17  17  17  17
+  17  17  17
+    17  17
+      17</universes>
+    </hex_lattice>
+    <hex_lattice id="22" n_rings="3">
+      <pitch>4.041</pitch>
+      <outer>23</outer>
+      <center>0.0 0.0</center>
+      <universes>
+    21
+  21  21
+21  21  21
+  21  21
+21  21  21
+  21  21
+21  21  21
+  21  21
+    21</universes>
+    </hex_lattice>
+    <hex_lattice id="26" n_rings="3">
+      <pitch>4.041</pitch>
+      <outer>27</outer>
+      <center>0.0 0.0</center>
+      <universes>
+    25
+  25  25
+25  25  25
+  25  25
+25  25  25
+  25  25
+25  25  25
+  25  25
+    25</universes>
+    </hex_lattice>
+    <hex_lattice id="31" n_rings="9" name="Core" orientation="x">
+      <pitch>17.173</pitch>
+      <outer>32</outer>
+      <center>0.0 0.0</center>
+      <universes>
+                30  28  28  28  28  28  28  28  30
+              28  28  24  24  24  24  24  24  28  28
+            28  24  24  29  12  12  12  29  24  24  28
+          28  24  29  12  12  8   8   12  12  29  24  28
+        28  24  12  12  8   8   8   8   8   12  12  24  28
+      28  24  12  8   8   16  4   4   16  8   8   12  24  28
+    28  24  12  8   20  4   4   4   4   4   20  8   12  24  28
+  28  24  29  12  8   4   4   4   4   4   4   8   12  29  24  28
+30  28  24  12  8   16  4   4   30  4   4   16  8   12  24  28  30
+  28  24  29  12  8   4   4   4   4   4   4   8   12  29  24  28
+    28  24  12  8   8   4   4   4   4   4   8   8   12  24  28
+      28  24  12  8   8   16  4   4   16  8   8   12  24  28
+        28  24  12  12  8   8   20  8   8   12  12  24  28
+          28  24  29  12  12  8   8   12  12  29  24  28
+            28  24  24  29  12  12  12  29  24  24  28
+              28  28  24  24  24  24  24  24  28  28
+                30  28  28  28  28  28  28  28  30</universes>
+    </hex_lattice>
+    <surface coeffs="0.0 0.0 0.563" id="1" type="z-cylinder"/>
+    <surface coeffs="0.0 0.0 0.65" id="2" type="z-cylinder"/>
+    <surface coeffs="0.0 0.0 0.7" id="3" type="z-cylinder"/>
+    <surface coeffs="8.500039338144264" id="4" type="x-plane"/>
+    <surface coeffs="-8.500039338144264" id="5" type="x-plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 9.815" id="6" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 9.815" id="7" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 -9.815" id="8" type="plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 -9.815" id="9" type="plane"/>
+    <surface coeffs="8.586641878522707" id="10" type="x-plane"/>
+    <surface coeffs="-8.586641878522707" id="11" type="x-plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 9.915" id="12" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 9.915" id="13" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 -9.915" id="14" type="plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 -9.915" id="15" type="plane"/>
+    <surface coeffs="0.0 0.0 0.563" id="16" type="z-cylinder"/>
+    <surface coeffs="0.0 0.0 0.65" id="17" type="z-cylinder"/>
+    <surface coeffs="0.0 0.0 0.7" id="18" type="z-cylinder"/>
+    <surface coeffs="8.500039338144264" id="19" type="x-plane"/>
+    <surface coeffs="-8.500039338144264" id="20" type="x-plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 9.815" id="21" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 9.815" id="22" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 -9.815" id="23" type="plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 -9.815" id="24" type="plane"/>
+    <surface coeffs="8.586641878522707" id="25" type="x-plane"/>
+    <surface coeffs="-8.586641878522707" id="26" type="x-plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 9.915" id="27" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 9.915" id="28" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 -9.915" id="29" type="plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 -9.915" id="30" type="plane"/>
+    <surface coeffs="0.0 0.0 0.563" id="31" type="z-cylinder"/>
+    <surface coeffs="0.0 0.0 0.65" id="32" type="z-cylinder"/>
+    <surface coeffs="0.0 0.0 0.7" id="33" type="z-cylinder"/>
+    <surface coeffs="8.500039338144264" id="34" type="x-plane"/>
+    <surface coeffs="-8.500039338144264" id="35" type="x-plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 9.815" id="36" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 9.815" id="37" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 -9.815" id="38" type="plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 -9.815" id="39" type="plane"/>
+    <surface coeffs="8.586641878522707" id="40" type="x-plane"/>
+    <surface coeffs="-8.586641878522707" id="41" type="x-plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 9.915" id="42" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 9.915" id="43" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 -9.915" id="44" type="plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 -9.915" id="45" type="plane"/>
+    <surface coeffs="0.0 0.0 0.65" id="46" type="z-cylinder"/>
+    <surface coeffs="0.0 0.0 0.7" id="47" type="z-cylinder"/>
+    <surface coeffs="8.500039338144264" id="48" type="x-plane"/>
+    <surface coeffs="-8.500039338144264" id="49" type="x-plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 9.815" id="50" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 9.815" id="51" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 -9.815" id="52" type="plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 -9.815" id="53" type="plane"/>
+    <surface coeffs="8.586641878522707" id="54" type="x-plane"/>
+    <surface coeffs="-8.586641878522707" id="55" type="x-plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 9.915" id="56" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 9.915" id="57" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 -9.915" id="58" type="plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 -9.915" id="59" type="plane"/>
+    <surface coeffs="11.19" id="60" type="z-plane"/>
+    <surface coeffs="11.276499999999999" id="61" type="z-plane"/>
+    <surface coeffs="0.0 0.0 0.975" id="62" type="z-cylinder"/>
+    <surface coeffs="0.0 0.0 1.025" id="63" type="z-cylinder"/>
+    <surface coeffs="8.500039338144264" id="64" type="x-plane"/>
+    <surface coeffs="-8.500039338144264" id="65" type="x-plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 9.815" id="66" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 9.815" id="67" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 -9.815" id="68" type="plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 -9.815" id="69" type="plane"/>
+    <surface coeffs="8.586641878522707" id="70" type="x-plane"/>
+    <surface coeffs="-8.586641878522707" id="71" type="x-plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 9.915" id="72" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 9.915" id="73" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 -9.915" id="74" type="plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 -9.915" id="75" type="plane"/>
+    <surface coeffs="75.0" id="76" type="z-plane"/>
+    <surface coeffs="75.0865" id="77" type="z-plane"/>
+    <surface coeffs="0.0 0.0 1.5" id="78" type="z-cylinder"/>
+    <surface coeffs="8.500039338144264" id="79" type="x-plane"/>
+    <surface coeffs="-8.500039338144264" id="80" type="x-plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 9.815" id="81" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 9.815" id="82" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 -9.815" id="83" type="plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 -9.815" id="84" type="plane"/>
+    <surface coeffs="8.586641878522707" id="85" type="x-plane"/>
+    <surface coeffs="-8.586641878522707" id="86" type="x-plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 9.915" id="87" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 9.915" id="88" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 -9.915" id="89" type="plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 -9.915" id="90" type="plane"/>
+    <surface coeffs="0.0 0.0 1.5" id="91" type="z-cylinder"/>
+    <surface coeffs="8.500039338144264" id="92" type="x-plane"/>
+    <surface coeffs="-8.500039338144264" id="93" type="x-plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 9.815" id="94" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 9.815" id="95" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 -9.815" id="96" type="plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 -9.815" id="97" type="plane"/>
+    <surface coeffs="8.586641878522707" id="98" type="x-plane"/>
+    <surface coeffs="-8.586641878522707" id="99" type="x-plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 9.915" id="100" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 9.915" id="101" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 -9.915" id="102" type="plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 -9.915" id="103" type="plane"/>
+    <surface coeffs="8.500039338144264" id="104" type="x-plane"/>
+    <surface coeffs="-8.500039338144264" id="105" type="x-plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 9.815" id="106" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 9.815" id="107" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 -9.815" id="108" type="plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 -9.815" id="109" type="plane"/>
+    <surface coeffs="8.586641878522707" id="110" type="x-plane"/>
+    <surface coeffs="-8.586641878522707" id="111" type="x-plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 9.915" id="112" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 9.915" id="113" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 -9.915" id="114" type="plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 -9.915" id="115" type="plane"/>
+    <surface coeffs="8.586641878522707" id="116" type="x-plane"/>
+    <surface coeffs="-8.586641878522707" id="117" type="x-plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 9.915" id="118" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 9.915" id="119" type="plane"/>
+    <surface coeffs="-0.5773502691896257 1.0 0.0 -9.915" id="120" type="plane"/>
+    <surface coeffs="0.5773502691896257 1.0 0.0 -9.915" id="121" type="plane"/>
+    <surface boundary="vacuum" coeffs="240.40865209056017" id="122" type="x-plane"/>
+    <surface boundary="vacuum" coeffs="-240.40865209056017" id="123" type="x-plane"/>
+    <surface boundary="vacuum" coeffs="0.5773502691896257 1.0 0.0 277.6" id="124" type="plane"/>
+    <surface boundary="vacuum" coeffs="-0.5773502691896257 1.0 0.0 277.6" id="125" type="plane"/>
+    <surface boundary="vacuum" coeffs="-0.5773502691896257 1.0 0.0 -277.6" id="126" type="plane"/>
+    <surface boundary="vacuum" coeffs="0.5773502691896257 1.0 0.0 -277.6" id="127" type="plane"/>
+    <surface boundary="vacuum" coeffs="150.0" id="128" type="z-plane"/>
+    <surface boundary="vacuum" coeffs="0" id="129" type="z-plane"/>
+  </geometry>
+  <settings>
+    <run_mode>eigenvalue</run_mode>
+    <particles>2000000</particles>
+    <batches>500</batches>
+    <inactive>100</inactive>
+    <source particle="neutron" strength="1.0" type="independent">
+      <space type="box">
+        <parameters>-277.6 -277.6 0 277.6 277.6 150.0</parameters>
+      </space>
+      <constraints>
+        <fissionable>true</fissionable>
+      </constraints>
+    </source>
+  </settings>
+  </model>

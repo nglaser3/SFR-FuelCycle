@@ -490,7 +490,6 @@
     </plot>
     <plot basis="xy" color_by="material" filename="core-xs-mat.png" id="1" type="slice">
       <pixels>8000 8000</pixels>
-      <mask components="51 50"/>
       <level>1</level>
       <origin>0 0 75.0</origin>
       <width>280.0 280.0</width>

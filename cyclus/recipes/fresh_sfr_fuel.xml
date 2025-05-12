@@ -1,6 +1,6 @@
 <recipes>
   <recipe>
-    <name>fuel_inner</name>
+    <name>fresh_sfr_inner</name>
     <basis>mass</basis>
     <nuclide>
       <id>40090</id>
@@ -32,7 +32,7 @@
     </nuclide>
   </recipe>
   <recipe>
-    <name>fuel_middle</name>
+    <name>fresh_sfr_middle</name>
     <basis>mass</basis>
     <nuclide>
       <id>40090</id>
@@ -64,7 +64,7 @@
     </nuclide>
   </recipe>
   <recipe>
-    <name>fuel_outer</name>
+    <name>fresh_sfr_outer</name>
     <basis>mass</basis>
     <nuclide>
       <id>40090</id>

@@ -35,15 +35,10 @@
 			<lib>cycamore</lib>
 			<name>DeployInst</lib>
 		</spec>
-		<!-- No clue lol read the docs but confused -->
+		<!-- Region for growth  -->
 		<spec>
-			<lib>agents</lib>
-			<name>NullRegion</lib>
-		</spec>
-		<!-- No clue, read the docs but confused -->
-		<spec>
-			<lib>agents</lib>
-			<name>NullInst</lib>
+			<lib>cycamore</lib>
+			<name>GrowthRegion</lib>
 		</spec>
 	</archetypes>
 	
@@ -161,12 +156,81 @@
 	</recipe>
 	
 <!-- Facilities -->
+	<!-- mining facility -->
 	<facility>
-	<name>Source</name>
-	<config>
-		<Source>
-			<outcommod>natural_u</outcommod>
-			
+		<name>Mine</name>
+		<config>
+			<Source>
+				<outcommod>nat_u</outcommod>
+				<outrecipe>nat_u</outcommod>
+				<throughput>1e6</throughput>
+			<Source>			
+		</config>
+	</facility>
+
+	<!-- Enrichment -->
+	<facility>
+		<name>Enrichment</name>
+		<!-- 3 Enrichments, inventory sums to 5e6 -->
+		<config>
+			<Enrichment>
+				<feed_commod>nat_u</feed_commod>
+				<feed_recipe>nat_u</feed_commod>
+				<product_commod>in_fuel_inner</product_commod>
+				<tails_commod>tails</tails_commod>
+				<tails_assay>0.002</tails_assay>
+				<max_enrich>0.1975</max_enrich>
+				<max_feed_inventory>2e6</max_feed_inventory>
+			</Enrichment>
+			<Enrichment>
+				<feed_commod>nat_u</feed_commod>
+				<feed_recipe>nat_u</feed_commod>
+				<product_commod>in_fuel_middle</product_commod>
+				<tails_commod>tails</tails_commod>
+				<tails_assay>0.002</tails_assay>
+				<max_enrich>0.1975</max_enrich>
+				<max_feed_inventory>2e6</max_feed_inventory>
+			</Enrichment>
+			<Enrichment>
+				<feed_commod>nat_u</feed_commod>
+				<feed_recipe>nat_u</feed_commod>
+				<product_commod>in_fuel_outer</product_commod>
+				<tails_commod>tails</tails_commod>
+				<tails_assay>0.002</tails_assay>
+				<max_enrich>0.1975</max_enrich>
+				<max_feed_inventory>1e6</max_feed_inventory>
+			</Enrichment>
+		</config>
+	</facility>
+
+	<!-- SFR -->	
+	<facility>
+	</facility>
+
+	<!-- Repo -->
+	<facility>
+		<name>Repository</name>
+		<config>
+			<Sink>
+				<in_commods>
+					<val>tails</val>
+					<val>out_fuel_inner</val>
+					<val>out_fuel_middle</val>
+					<val>out_fuel_outer</val>
+				</in_commods>
+			</Sink>
+		</config>
+	</facility>	
+	
+	<region>
+		<name>USA</name>
+		<config>
+			<GrowthRegion>
+			</GrowthRegion>
+		</config>
+		<institution>
+			<name>FuelCycle</name>
+			<initialfacilitylist>
 </simulation>
 
 

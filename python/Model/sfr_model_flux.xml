@@ -466,8 +466,8 @@
   </geometry>
   <settings>
     <run_mode>eigenvalue</run_mode>
-    <particles>200000</particles>
-    <batches>250</batches>
+    <particles>100000</particles>
+    <batches>150</batches>
     <inactive>50</inactive>
     <source particle="neutron" strength="1.0" type="independent">
       <space type="box">
@@ -489,7 +489,7 @@
       <y>0.0</y>
       <r>158.62857142857143</r>
 	  <num_sides>6</num_sides>
-	  <angle>0.523598775598</angle>	
+	  <angle>0.5235987755982988</angle>	
     </filter>
     <tally id="1" name="Flux Tally">
       <filters>1</filters>

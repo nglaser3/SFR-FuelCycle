@@ -1,0 +1,1490 @@
+ ======================>     TALLY 1: FLUX TALLY     <======================
+
+ Zernike expansion, Z0,0
+   Total Material
+     Flux                                 129.173 +/- 0.0682942
+ Zernike expansion, Z1,-1
+   Total Material
+     Flux                                 11.058 +/- 0.0279306
+ Zernike expansion, Z1,1
+   Total Material
+     Flux                                 7.36383 +/- 0.0295153
+ Zernike expansion, Z2,-2
+   Total Material
+     Flux                                 -2.09138 +/- 0.0131197
+ Zernike expansion, Z2,0
+   Total Material
+     Flux                                 -98.2948 +/- 0.055655
+ Zernike expansion, Z2,2
+   Total Material
+     Flux                                 1.82783 +/- 0.0145449
+ Zernike expansion, Z3,-3
+   Total Material
+     Flux                                 -0.120426 +/- 0.00986683
+ Zernike expansion, Z3,-1
+   Total Material
+     Flux                                 -13.3713 +/- 0.0351326
+ Zernike expansion, Z3,1
+   Total Material
+     Flux                                 -10.9531 +/- 0.0311758
+ Zernike expansion, Z3,3
+   Total Material
+     Flux                                 0.0288354 +/- 0.00823256
+ Zernike expansion, Z4,-4
+   Total Material
+     Flux                                 -0.64987 +/- 0.00719329
+ Zernike expansion, Z4,-2
+   Total Material
+     Flux                                 3.75476 +/- 0.0197557
+ Zernike expansion, Z4,0
+   Total Material
+     Flux                                 63.5869 +/- 0.0566008
+ Zernike expansion, Z4,2
+   Total Material
+     Flux                                 -2.54623 +/- 0.0188645
+ Zernike expansion, Z4,4
+   Total Material
+     Flux                                 0.248917 +/- 0.00672547
+ Zernike expansion, Z5,-5
+   Total Material
+     Flux                                 -0.160616 +/- 0.00569737
+ Zernike expansion, Z5,-3
+   Total Material
+     Flux                                 0.286426 +/- 0.0161624
+ Zernike expansion, Z5,-1
+   Total Material
+     Flux                                 9.45412 +/- 0.0325946
+ Zernike expansion, Z5,1
+   Total Material
+     Flux                                 10.7256 +/- 0.0265966
+ Zernike expansion, Z5,3
+   Total Material
+     Flux                                 -0.0417655 +/- 0.0116109
+ Zernike expansion, Z5,5
+   Total Material
+     Flux                                 -0.604826 +/- 0.00494777
+ Zernike expansion, Z6,-6
+   Total Material
+     Flux                                 -0.883149 +/- 0.00508996
+ Zernike expansion, Z6,-4
+   Total Material
+     Flux                                 1.50029 +/- 0.0109479
+ Zernike expansion, Z6,-2
+   Total Material
+     Flux                                 -3.66629 +/- 0.0211215
+ Zernike expansion, Z6,0
+   Total Material
+     Flux                                 -40.5711 +/- 0.0534367
+ Zernike expansion, Z6,2
+   Total Material
+     Flux                                 1.72771 +/- 0.0178917
+ Zernike expansion, Z6,4
+   Total Material
+     Flux                                 -0.140303 +/- 0.0106673
+ Zernike expansion, Z6,6
+   Total Material
+     Flux                                 0.223519 +/- 0.00399174
+ Zernike expansion, Z7,-7
+   Total Material
+     Flux                                 0.0613369 +/- 0.00382119
+ Zernike expansion, Z7,-5
+   Total Material
+     Flux                                 -0.132782 +/- 0.00863174
+ Zernike expansion, Z7,-3
+   Total Material
+     Flux                                 -0.387272 +/- 0.0158844
+ Zernike expansion, Z7,-1
+   Total Material
+     Flux                                 -4.68865 +/- 0.0273113
+ Zernike expansion, Z7,1
+   Total Material
+     Flux                                 -8.74911 +/- 0.0235857
+ Zernike expansion, Z7,3
+   Total Material
+     Flux                                 0.0225821 +/- 0.0139348
+ Zernike expansion, Z7,5
+   Total Material
+     Flux                                 1.29618 +/- 0.00805326
+ Zernike expansion, Z7,7
+   Total Material
+     Flux                                 0.261125 +/- 0.00455304
+ Zernike expansion, Z8,-8
+   Total Material
+     Flux                                 -0.110006 +/- 0.00367692
+ Zernike expansion, Z8,-6
+   Total Material
+     Flux                                 1.7535 +/- 0.00757017
+ Zernike expansion, Z8,-4
+   Total Material
+     Flux                                 -1.90203 +/- 0.0119475
+ Zernike expansion, Z8,-2
+   Total Material
+     Flux                                 2.38118 +/- 0.0203422
+ Zernike expansion, Z8,0
+   Total Material
+     Flux                                 28.6794 +/- 0.0460211
+ Zernike expansion, Z8,2
+   Total Material
+     Flux                                 -0.458155 +/- 0.018767
+ Zernike expansion, Z8,4
+   Total Material
+     Flux                                 -0.32371 +/- 0.0109963
+ Zernike expansion, Z8,6
+   Total Material
+     Flux                                 0.17925 +/- 0.00746312
+ Zernike expansion, Z8,8
+   Total Material
+     Flux                                 0.0186276 +/- 0.00315152
+ Zernike expansion, Z9,-9
+   Total Material
+     Flux                                 -0.00361196 +/- 0.00334503
+ Zernike expansion, Z9,-7
+   Total Material
+     Flux                                 0.0462912 +/- 0.00627164
+ Zernike expansion, Z9,-5
+   Total Material
+     Flux                                 0.727458 +/- 0.00949739
+ Zernike expansion, Z9,-3
+   Total Material
+     Flux                                 0.397149 +/- 0.0160312
+ Zernike expansion, Z9,-1
+   Total Material
+     Flux                                 1.45329 +/- 0.023044
+ Zernike expansion, Z9,1
+   Total Material
+     Flux                                 6.67879 +/- 0.0236786
+ Zernike expansion, Z9,3
+   Total Material
+     Flux                                 -0.000217891 +/- 0.0153596
+ Zernike expansion, Z9,5
+   Total Material
+     Flux                                 -1.39085 +/- 0.0106915
+ Zernike expansion, Z9,7
+   Total Material
+     Flux                                 -0.475387 +/- 0.00691404
+ Zernike expansion, Z9,9
+   Total Material
+     Flux                                 -0.00456619 +/- 0.00296404
+ Zernike expansion, Z10,-10
+   Total Material
+     Flux                                 -0.0710438 +/- 0.00303072
+ Zernike expansion, Z10,-8
+   Total Material
+     Flux                                 0.190576 +/- 0.00639498
+ Zernike expansion, Z10,-6
+   Total Material
+     Flux                                 -1.74599 +/- 0.00915578
+ Zernike expansion, Z10,-4
+   Total Material
+     Flux                                 1.81206 +/- 0.0115391
+ Zernike expansion, Z10,-2
+   Total Material
+     Flux                                 -0.77513 +/- 0.0189974
+ Zernike expansion, Z10,0
+   Total Material
+     Flux                                 -23.2497 +/- 0.0409762
+ Zernike expansion, Z10,2
+   Total Material
+     Flux                                 -0.62434 +/- 0.0172179
+ Zernike expansion, Z10,4
+   Total Material
+     Flux                                 0.740959 +/- 0.0095973
+ Zernike expansion, Z10,6
+   Total Material
+     Flux                                 -0.765344 +/- 0.00860973
+ Zernike expansion, Z10,8
+   Total Material
+     Flux                                 0.0250622 +/- 0.0053714
+ Zernike expansion, Z10,10
+   Total Material
+     Flux                                 0.00692727 +/- 0.00303336
+ Zernike expansion, Z11,-11
+   Total Material
+     Flux                                 -0.00744226 +/- 0.00283661
+ Zernike expansion, Z11,-9
+   Total Material
+     Flux                                 0.00432068 +/- 0.00505757
+ Zernike expansion, Z11,-7
+   Total Material
+     Flux                                 -0.164936 +/- 0.00711336
+ Zernike expansion, Z11,-5
+   Total Material
+     Flux                                 -1.18336 +/- 0.0102414
+ Zernike expansion, Z11,-3
+   Total Material
+     Flux                                 -0.33109 +/- 0.0153185
+ Zernike expansion, Z11,-1
+   Total Material
+     Flux                                 -0.0758014 +/- 0.0206922
+ Zernike expansion, Z11,1
+   Total Material
+     Flux                                 -5.12248 +/- 0.0222823
+ Zernike expansion, Z11,3
+   Total Material
+     Flux                                 -0.0357585 +/- 0.0170505
+ Zernike expansion, Z11,5
+   Total Material
+     Flux                                 0.965973 +/- 0.0105098
+ Zernike expansion, Z11,7
+   Total Material
+     Flux                                 0.444324 +/- 0.00767403
+ Zernike expansion, Z11,9
+   Total Material
+     Flux                                 0.00613935 +/- 0.00574055
+ Zernike expansion, Z11,11
+   Total Material
+     Flux                                 -0.0968767 +/- 0.00272701
+ Zernike expansion, Z12,-12
+   Total Material
+     Flux                                 -0.184094 +/- 0.00289927
+ Zernike expansion, Z12,-10
+   Total Material
+     Flux                                 0.107951 +/- 0.00509456
+ Zernike expansion, Z12,-8
+   Total Material
+     Flux                                 -0.169239 +/- 0.00705173
+ Zernike expansion, Z12,-6
+   Total Material
+     Flux                                 1.26479 +/- 0.00934237
+ Zernike expansion, Z12,-4
+   Total Material
+     Flux                                 -1.43097 +/- 0.012299
+ Zernike expansion, Z12,-2
+   Total Material
+     Flux                                 -0.565736 +/- 0.0181775
+ Zernike expansion, Z12,0
+   Total Material
+     Flux                                 20.0285 +/- 0.0361761
+ Zernike expansion, Z12,2
+   Total Material
+     Flux                                 1.21958 +/- 0.015342
+ Zernike expansion, Z12,4
+   Total Material
+     Flux                                 -1.04548 +/- 0.0112005
+ Zernike expansion, Z12,6
+   Total Material
+     Flux                                 0.789442 +/- 0.00870725
+ Zernike expansion, Z12,8
+   Total Material
+     Flux                                 -0.0284339 +/- 0.00668132
+ Zernike expansion, Z12,10
+   Total Material
+     Flux                                 0.0123461 +/- 0.00546507
+ Zernike expansion, Z12,12
+   Total Material
+     Flux                                 -0.00085428 +/- 0.00223095
+ Zernike expansion, Z13,-13
+   Total Material
+     Flux                                 -0.00630121 +/- 0.00251356
+ Zernike expansion, Z13,-11
+   Total Material
+     Flux                                 -0.0195927 +/- 0.00431086
+ Zernike expansion, Z13,-9
+   Total Material
+     Flux                                 0.00720044 +/- 0.0057033
+ Zernike expansion, Z13,-7
+   Total Material
+     Flux                                 0.0886721 +/- 0.00707443
+ Zernike expansion, Z13,-5
+   Total Material
+     Flux                                 1.56507 +/- 0.0112277
+ Zernike expansion, Z13,-3
+   Total Material
+     Flux                                 0.235053 +/- 0.0124444
+ Zernike expansion, Z13,-1
+   Total Material
+     Flux                                 -0.234092 +/- 0.0189757
+ Zernike expansion, Z13,1
+   Total Material
+     Flux                                 4.05162 +/- 0.0198011
+ Zernike expansion, Z13,3
+   Total Material
+     Flux                                 0.0542698 +/- 0.0158682
+ Zernike expansion, Z13,5
+   Total Material
+     Flux                                 -0.21081 +/- 0.00938076
+ Zernike expansion, Z13,7
+   Total Material
+     Flux                                 -0.364132 +/- 0.00804129
+ Zernike expansion, Z13,9
+   Total Material
+     Flux                                 -0.00501135 +/- 0.00660561
+ Zernike expansion, Z13,11
+   Total Material
+     Flux                                 0.144899 +/- 0.00440193
+ Zernike expansion, Z13,13
+   Total Material
+     Flux                                 0.0667761 +/- 0.00242437
+ Zernike expansion, Z14,-14
+   Total Material
+     Flux                                 -0.0300944 +/- 0.00231335
+ Zernike expansion, Z14,-12
+   Total Material
+     Flux                                 0.255985 +/- 0.00402734
+ Zernike expansion, Z14,-10
+   Total Material
+     Flux                                 -0.106032 +/- 0.00548825
+ Zernike expansion, Z14,-8
+   Total Material
+     Flux                                 0.17154 +/- 0.00733317
+ Zernike expansion, Z14,-6
+   Total Material
+     Flux                                 -0.555267 +/- 0.00915702
+ Zernike expansion, Z14,-4
+   Total Material
+     Flux                                 0.960821 +/- 0.0121336
+ Zernike expansion, Z14,-2
+   Total Material
+     Flux                                 1.43196 +/- 0.0173385
+ Zernike expansion, Z14,0
+   Total Material
+     Flux                                 -17.1169 +/- 0.0351564
+ Zernike expansion, Z14,2
+   Total Material
+     Flux                                 -1.37933 +/- 0.014929
+ Zernike expansion, Z14,4
+   Total Material
+     Flux                                 1.195 +/- 0.0114892
+ Zernike expansion, Z14,6
+   Total Material
+     Flux                                 -0.534097 +/- 0.00996957
+ Zernike expansion, Z14,8
+   Total Material
+     Flux                                 -0.0466492 +/- 0.00712586
+ Zernike expansion, Z14,10
+   Total Material
+     Flux                                 -0.00723177 +/- 0.00620734
+ Zernike expansion, Z14,12
+   Total Material
+     Flux                                 0.0431967 +/- 0.00411032
+ Zernike expansion, Z14,14
+   Total Material
+     Flux                                 -0.00259317 +/- 0.00174255
+ Zernike expansion, Z15,-15
+   Total Material
+     Flux                                 0.00124269 +/- 0.00220557
+ Zernike expansion, Z15,-13
+   Total Material
+     Flux                                 0.0176203 +/- 0.00387915
+ Zernike expansion, Z15,-11
+   Total Material
+     Flux                                 0.0133688 +/- 0.00455679
+ Zernike expansion, Z15,-9
+   Total Material
+     Flux                                 -0.00826878 +/- 0.00629819
+ Zernike expansion, Z15,-7
+   Total Material
+     Flux                                 0.0493533 +/- 0.00837584
+ Zernike expansion, Z15,-5
+   Total Material
+     Flux                                 -1.84623 +/- 0.0108823
+ Zernike expansion, Z15,-3
+   Total Material
+     Flux                                 -0.13909 +/- 0.0101334
+ Zernike expansion, Z15,-1
+   Total Material
+     Flux                                 0.326805 +/- 0.0178489
+ Zernike expansion, Z15,1
+   Total Material
+     Flux                                 -3.2859 +/- 0.0175248
+ Zernike expansion, Z15,3
+   Total Material
+     Flux                                 -0.0212774 +/- 0.0143689
+ Zernike expansion, Z15,5
+   Total Material
+     Flux                                 -0.720905 +/- 0.00942662
+ Zernike expansion, Z15,7
+   Total Material
+     Flux                                 0.283311 +/- 0.00938797
+ Zernike expansion, Z15,9
+   Total Material
+     Flux                                 0.00689561 +/- 0.0075525
+ Zernike expansion, Z15,11
+   Total Material
+     Flux                                 -0.135042 +/- 0.00428529
+ Zernike expansion, Z15,13
+   Total Material
+     Flux                                 -0.0857499 +/- 0.00341864
+ Zernike expansion, Z15,15
+   Total Material
+     Flux                                 -0.00278139 +/- 0.00166475
+ Zernike expansion, Z16,-16
+   Total Material
+     Flux                                 -0.0240669 +/- 0.00206036
+ Zernike expansion, Z16,-14
+   Total Material
+     Flux                                 0.0379359 +/- 0.00326919
+ Zernike expansion, Z16,-12
+   Total Material
+     Flux                                 -0.245706 +/- 0.0048786
+ Zernike expansion, Z16,-10
+   Total Material
+     Flux                                 0.153416 +/- 0.00584767
+ Zernike expansion, Z16,-8
+   Total Material
+     Flux                                 -0.19735 +/- 0.00789195
+ Zernike expansion, Z16,-6
+   Total Material
+     Flux                                 -0.403316 +/- 0.00925283
+ Zernike expansion, Z16,-4
+   Total Material
+     Flux                                 -0.580072 +/- 0.0119426
+ Zernike expansion, Z16,-2
+   Total Material
+     Flux                                 -1.93502 +/- 0.0170483
+ Zernike expansion, Z16,0
+   Total Material
+     Flux                                 14.6099 +/- 0.0325894
+ Zernike expansion, Z16,2
+   Total Material
+     Flux                                 1.38854 +/- 0.0150592
+ Zernike expansion, Z16,4
+   Total Material
+     Flux                                 -1.12354 +/- 0.00994199
+ Zernike expansion, Z16,6
+   Total Material
+     Flux                                 0.150643 +/- 0.0103968
+ Zernike expansion, Z16,8
+   Total Material
+     Flux                                 0.0950468 +/- 0.00784248
+ Zernike expansion, Z16,10
+   Total Material
+     Flux                                 -0.0264658 +/- 0.00643652
+ Zernike expansion, Z16,12
+   Total Material
+     Flux                                 -0.00837065 +/- 0.00487106
+ Zernike expansion, Z16,14
+   Total Material
+     Flux                                 0.00845556 +/- 0.00368528
+ Zernike expansion, Z16,16
+   Total Material
+     Flux                                 -0.00739715 +/- 0.00179754
+ Zernike expansion, Z17,-17
+   Total Material
+     Flux                                 0.0123719 +/- 0.0021161
+ Zernike expansion, Z17,-15
+   Total Material
+     Flux                                 -7.77642e-05 +/- 0.0034582
+ Zernike expansion, Z17,-13
+   Total Material
+     Flux                                 -0.00234345 +/- 0.00473636
+ Zernike expansion, Z17,-11
+   Total Material
+     Flux                                 0.0173457 +/- 0.00576946
+ Zernike expansion, Z17,-9
+   Total Material
+     Flux                                 0.000655537 +/- 0.00671614
+ Zernike expansion, Z17,-7
+   Total Material
+     Flux                                 -0.185992 +/- 0.00818665
+ Zernike expansion, Z17,-5
+   Total Material
+     Flux                                 1.89919 +/- 0.0104238
+ Zernike expansion, Z17,-3
+   Total Material
+     Flux                                 0.0492522 +/- 0.0104244
+ Zernike expansion, Z17,-1
+   Total Material
+     Flux                                 -0.458474 +/- 0.0181399
+ Zernike expansion, Z17,1
+   Total Material
+     Flux                                 2.72036 +/- 0.0154847
+ Zernike expansion, Z17,3
+   Total Material
+     Flux                                 -0.00989034 +/- 0.0144613
+ Zernike expansion, Z17,5
+   Total Material
+     Flux                                 1.57118 +/- 0.0101482
+ Zernike expansion, Z17,7
+   Total Material
+     Flux                                 -0.0955138 +/- 0.00977078
+ Zernike expansion, Z17,9
+   Total Material
+     Flux                                 -0.0030852 +/- 0.00814469
+ Zernike expansion, Z17,11
+   Total Material
+     Flux                                 0.206761 +/- 0.00513235
+ Zernike expansion, Z17,13
+   Total Material
+     Flux                                 0.0843318 +/- 0.00475962
+ Zernike expansion, Z17,15
+   Total Material
+     Flux                                 0.00539619 +/- 0.00340223
+ Zernike expansion, Z17,17
+   Total Material
+     Flux                                 -0.0355 +/- 0.00164057
+ Zernike expansion, Z18,-18
+   Total Material
+     Flux                                 -0.0689463 +/- 0.00201981
+ Zernike expansion, Z18,-16
+   Total Material
+     Flux                                 0.0257213 +/- 0.00325845
+ Zernike expansion, Z18,-14
+   Total Material
+     Flux                                 -0.0422922 +/- 0.00439689
+ Zernike expansion, Z18,-12
+   Total Material
+     Flux                                 0.378383 +/- 0.0048287
+ Zernike expansion, Z18,-10
+   Total Material
+     Flux                                 -0.227708 +/- 0.00668912
+ Zernike expansion, Z18,-8
+   Total Material
+     Flux                                 0.137667 +/- 0.00815182
+ Zernike expansion, Z18,-6
+   Total Material
+     Flux                                 1.25489 +/- 0.00878117
+ Zernike expansion, Z18,-4
+   Total Material
+     Flux                                 0.342961 +/- 0.0120738
+ Zernike expansion, Z18,-2
+   Total Material
+     Flux                                 2.22075 +/- 0.0160532
+ Zernike expansion, Z18,0
+   Total Material
+     Flux                                 -12.755 +/- 0.0314767
+ Zernike expansion, Z18,2
+   Total Material
+     Flux                                 -1.39128 +/- 0.0132497
+ Zernike expansion, Z18,4
+   Total Material
+     Flux                                 0.929758 +/- 0.00947459
+ Zernike expansion, Z18,6
+   Total Material
+     Flux                                 0.533259 +/- 0.0104246
+ Zernike expansion, Z18,8
+   Total Material
+     Flux                                 -0.103884 +/- 0.00793591
+ Zernike expansion, Z18,10
+   Total Material
+     Flux                                 0.0183092 +/- 0.00667916
+ Zernike expansion, Z18,12
+   Total Material
+     Flux                                 -0.0438927 +/- 0.00570959
+ Zernike expansion, Z18,14
+   Total Material
+     Flux                                 0.00548926 +/- 0.00478508
+ Zernike expansion, Z18,16
+   Total Material
+     Flux                                 0.00552318 +/- 0.00286732
+ Zernike expansion, Z18,18
+   Total Material
+     Flux                                 -0.0317069 +/- 0.00178694
+ Zernike expansion, Z19,-19
+   Total Material
+     Flux                                 -0.0159025 +/- 0.00198712
+ Zernike expansion, Z19,-17
+   Total Material
+     Flux                                 -0.0134282 +/- 0.00289494
+ Zernike expansion, Z19,-15
+   Total Material
+     Flux                                 -0.00133903 +/- 0.00479859
+ Zernike expansion, Z19,-13
+   Total Material
+     Flux                                 -0.0141033 +/- 0.00511779
+ Zernike expansion, Z19,-11
+   Total Material
+     Flux                                 0.0168056 +/- 0.00649723
+ Zernike expansion, Z19,-9
+   Total Material
+     Flux                                 -0.0134656 +/- 0.00731925
+ Zernike expansion, Z19,-7
+   Total Material
+     Flux                                 0.385992 +/- 0.0092366
+ Zernike expansion, Z19,-5
+   Total Material
+     Flux                                 -1.82127 +/- 0.0103956
+ Zernike expansion, Z19,-3
+   Total Material
+     Flux                                 0.0131686 +/- 0.0103678
+ Zernike expansion, Z19,-1
+   Total Material
+     Flux                                 0.560337 +/- 0.0179258
+ Zernike expansion, Z19,1
+   Total Material
+     Flux                                 -2.28681 +/- 0.0145607
+ Zernike expansion, Z19,3
+   Total Material
+     Flux                                 0.0271892 +/- 0.0131398
+ Zernike expansion, Z19,5
+   Total Material
+     Flux                                 -2.13968 +/- 0.00976469
+ Zernike expansion, Z19,7
+   Total Material
+     Flux                                 -0.124696 +/- 0.00915269
+ Zernike expansion, Z19,9
+   Total Material
+     Flux                                 0.00886929 +/- 0.00784437
+ Zernike expansion, Z19,11
+   Total Material
+     Flux                                 -0.298946 +/- 0.00582596
+ Zernike expansion, Z19,13
+   Total Material
+     Flux                                 -0.129083 +/- 0.00493957
+ Zernike expansion, Z19,15
+   Total Material
+     Flux                                 -0.00102294 +/- 0.00416796
+ Zernike expansion, Z19,17
+   Total Material
+     Flux                                 0.0447472 +/- 0.00294934
+ Zernike expansion, Z19,19
+   Total Material
+     Flux                                 0.0253338 +/- 0.00182834
+ Zernike expansion, Z20,-20
+   Total Material
+     Flux                                 -0.012443 +/- 0.00169423
+ Zernike expansion, Z20,-18
+   Total Material
+     Flux                                 0.0760603 +/- 0.0029273
+ Zernike expansion, Z20,-16
+   Total Material
+     Flux                                 -0.0296928 +/- 0.0039811
+ Zernike expansion, Z20,-14
+   Total Material
+     Flux                                 0.0673981 +/- 0.0052919
+ Zernike expansion, Z20,-12
+   Total Material
+     Flux                                 -0.527144 +/- 0.00525934
+ Zernike expansion, Z20,-10
+   Total Material
+     Flux                                 0.246655 +/- 0.00728406
+ Zernike expansion, Z20,-8
+   Total Material
+     Flux                                 -0.0377608 +/- 0.0089179
+ Zernike expansion, Z20,-6
+   Total Material
+     Flux                                 -1.64817 +/- 0.00936452
+ Zernike expansion, Z20,-4
+   Total Material
+     Flux                                 -0.197013 +/- 0.0125377
+ Zernike expansion, Z20,-2
+   Total Material
+     Flux                                 -2.37648 +/- 0.0152737
+ Zernike expansion, Z20,0
+   Total Material
+     Flux                                 11.472 +/- 0.031504
+ Zernike expansion, Z20,2
+   Total Material
+     Flux                                 1.42447 +/- 0.0121332
+ Zernike expansion, Z20,4
+   Total Material
+     Flux                                 -0.711775 +/- 0.011636
+ Zernike expansion, Z20,6
+   Total Material
+     Flux                                 -1.33703 +/- 0.0104443
+ Zernike expansion, Z20,8
+   Total Material
+     Flux                                 0.138182 +/- 0.00786485
+ Zernike expansion, Z20,10
+   Total Material
+     Flux                                 0.0258612 +/- 0.00696806
+ Zernike expansion, Z20,12
+   Total Material
+     Flux                                 -0.0375593 +/- 0.0061098
+ Zernike expansion, Z20,14
+   Total Material
+     Flux                                 -0.0153654 +/- 0.00458513
+ Zernike expansion, Z20,16
+   Total Material
+     Flux                                 0.00564024 +/- 0.00390463
+ Zernike expansion, Z20,18
+   Total Material
+     Flux                                 0.0213555 +/- 0.0028368
+ Zernike expansion, Z20,20
+   Total Material
+     Flux                                 -0.00591068 +/- 0.00154774
+ Zernike expansion, Z21,-21
+   Total Material
+     Flux                                 0.00154418 +/- 0.00153734
+ Zernike expansion, Z21,-19
+   Total Material
+     Flux                                 0.00619488 +/- 0.002555
+ Zernike expansion, Z21,-17
+   Total Material
+     Flux                                 -0.00569009 +/- 0.00320876
+ Zernike expansion, Z21,-15
+   Total Material
+     Flux                                 -0.00489366 +/- 0.00459727
+ Zernike expansion, Z21,-13
+   Total Material
+     Flux                                 -0.0146844 +/- 0.00523021
+ Zernike expansion, Z21,-11
+   Total Material
+     Flux                                 -0.0897781 +/- 0.00647174
+ Zernike expansion, Z21,-9
+   Total Material
+     Flux                                 0.0292838 +/- 0.00695476
+ Zernike expansion, Z21,-7
+   Total Material
+     Flux                                 -0.615739 +/- 0.00987875
+ Zernike expansion, Z21,-5
+   Total Material
+     Flux                                 1.7538 +/- 0.0103667
+ Zernike expansion, Z21,-3
+   Total Material
+     Flux                                 -0.0409771 +/- 0.0102769
+ Zernike expansion, Z21,-1
+   Total Material
+     Flux                                 -0.557705 +/- 0.0168077
+ Zernike expansion, Z21,1
+   Total Material
+     Flux                                 1.94304 +/- 0.0132412
+ Zernike expansion, Z21,3
+   Total Material
+     Flux                                 -0.041016 +/- 0.0136416
+ Zernike expansion, Z21,5
+   Total Material
+     Flux                                 2.42542 +/- 0.0102776
+ Zernike expansion, Z21,7
+   Total Material
+     Flux                                 0.234364 +/- 0.00873236
+ Zernike expansion, Z21,9
+   Total Material
+     Flux                                 -0.0143105 +/- 0.00765248
+ Zernike expansion, Z21,11
+   Total Material
+     Flux                                 0.281606 +/- 0.00659414
+ Zernike expansion, Z21,13
+   Total Material
+     Flux                                 0.168563 +/- 0.00516982
+ Zernike expansion, Z21,15
+   Total Material
+     Flux                                 0.00337502 +/- 0.00481514
+ Zernike expansion, Z21,17
+   Total Material
+     Flux                                 -0.0474419 +/- 0.00372747
+ Zernike expansion, Z21,19
+   Total Material
+     Flux                                 -0.0254434 +/- 0.00267502
+ Zernike expansion, Z21,21
+   Total Material
+     Flux                                 -0.000166248 +/- 0.00136585
+ Zernike expansion, Z22,-22
+   Total Material
+     Flux                                 -0.0092103 +/- 0.00147594
+ Zernike expansion, Z22,-20
+   Total Material
+     Flux                                 0.0127088 +/- 0.00251478
+ Zernike expansion, Z22,-18
+   Total Material
+     Flux                                 -0.0901415 +/- 0.00363639
+ Zernike expansion, Z22,-16
+   Total Material
+     Flux                                 0.0530443 +/- 0.00469533
+ Zernike expansion, Z22,-14
+   Total Material
+     Flux                                 -0.0872753 +/- 0.00516307
+ Zernike expansion, Z22,-12
+   Total Material
+     Flux                                 0.478149 +/- 0.00587339
+ Zernike expansion, Z22,-10
+   Total Material
+     Flux                                 -0.235624 +/- 0.0060426
+ Zernike expansion, Z22,-8
+   Total Material
+     Flux                                 -0.0386393 +/- 0.00955819
+ Zernike expansion, Z22,-6
+   Total Material
+     Flux                                 1.58069 +/- 0.00978632
+ Zernike expansion, Z22,-4
+   Total Material
+     Flux                                 0.0738579 +/- 0.0127757
+ Zernike expansion, Z22,-2
+   Total Material
+     Flux                                 2.43574 +/- 0.0143041
+ Zernike expansion, Z22,0
+   Total Material
+     Flux                                 -10.464 +/- 0.0293982
+ Zernike expansion, Z22,2
+   Total Material
+     Flux                                 -1.4442 +/- 0.0118837
+ Zernike expansion, Z22,4
+   Total Material
+     Flux                                 0.545502 +/- 0.0120933
+ Zernike expansion, Z22,6
+   Total Material
+     Flux                                 1.97917 +/- 0.00930339
+ Zernike expansion, Z22,8
+   Total Material
+     Flux                                 -0.172851 +/- 0.00881633
+ Zernike expansion, Z22,10
+   Total Material
+     Flux                                 -0.0318553 +/- 0.00588935
+ Zernike expansion, Z22,12
+   Total Material
+     Flux                                 0.130867 +/- 0.00630168
+ Zernike expansion, Z22,14
+   Total Material
+     Flux                                 -0.00168431 +/- 0.00454969
+ Zernike expansion, Z22,16
+   Total Material
+     Flux                                 -0.00222333 +/- 0.00375864
+ Zernike expansion, Z22,18
+   Total Material
+     Flux                                 0.0153484 +/- 0.0032598
+ Zernike expansion, Z22,20
+   Total Material
+     Flux                                 0.00175441 +/- 0.00245727
+ Zernike expansion, Z22,22
+   Total Material
+     Flux                                 -0.00922674 +/- 0.00145705
+ Zernike expansion, Z23,-23
+   Total Material
+     Flux                                 0.013968 +/- 0.00138431
+ Zernike expansion, Z23,-21
+   Total Material
+     Flux                                 -0.00344057 +/- 0.00251673
+ Zernike expansion, Z23,-19
+   Total Material
+     Flux                                 0.00712093 +/- 0.00345307
+ Zernike expansion, Z23,-17
+   Total Material
+     Flux                                 0.00537715 +/- 0.0039774
+ Zernike expansion, Z23,-15
+   Total Material
+     Flux                                 0.00533264 +/- 0.0043929
+ Zernike expansion, Z23,-13
+   Total Material
+     Flux                                 0.0331099 +/- 0.00619366
+ Zernike expansion, Z23,-11
+   Total Material
+     Flux                                 0.11626 +/- 0.00624839
+ Zernike expansion, Z23,-9
+   Total Material
+     Flux                                 -0.0355819 +/- 0.00820484
+ Zernike expansion, Z23,-7
+   Total Material
+     Flux                                 0.783008 +/- 0.00920924
+ Zernike expansion, Z23,-5
+   Total Material
+     Flux                                 -1.74712 +/- 0.0104223
+ Zernike expansion, Z23,-3
+   Total Material
+     Flux                                 0.039003 +/- 0.0108966
+ Zernike expansion, Z23,-1
+   Total Material
+     Flux                                 0.488545 +/- 0.0156507
+ Zernike expansion, Z23,1
+   Total Material
+     Flux                                 -1.67549 +/- 0.0112538
+ Zernike expansion, Z23,3
+   Total Material
+     Flux                                 0.0621651 +/- 0.0134098
+ Zernike expansion, Z23,5
+   Total Material
+     Flux                                 -2.56832 +/- 0.0109243
+ Zernike expansion, Z23,7
+   Total Material
+     Flux                                 -0.22283 +/- 0.00915411
+ Zernike expansion, Z23,9
+   Total Material
+     Flux                                 0.00425659 +/- 0.00813378
+ Zernike expansion, Z23,11
+   Total Material
+     Flux                                 -0.20014 +/- 0.00616512
+ Zernike expansion, Z23,13
+   Total Material
+     Flux                                 -0.153971 +/- 0.0051211
+ Zernike expansion, Z23,15
+   Total Material
+     Flux                                 -0.00767422 +/- 0.00456541
+ Zernike expansion, Z23,17
+   Total Material
+     Flux                                 0.0720874 +/- 0.00451428
+ Zernike expansion, Z23,19
+   Total Material
+     Flux                                 0.0313502 +/- 0.00345359
+ Zernike expansion, Z23,21
+   Total Material
+     Flux                                 0.00130309 +/- 0.00216057
+ Zernike expansion, Z23,23
+   Total Material
+     Flux                                 -0.0125168 +/- 0.00148614
+ Zernike expansion, Z24,-24
+   Total Material
+     Flux                                 -0.0238344 +/- 0.0013506
+ Zernike expansion, Z24,-22
+   Total Material
+     Flux                                 0.00947225 +/- 0.00213176
+ Zernike expansion, Z24,-20
+   Total Material
+     Flux                                 -0.0193695 +/- 0.00337918
+ Zernike expansion, Z24,-18
+   Total Material
+     Flux                                 0.145919 +/- 0.00407057
+ Zernike expansion, Z24,-16
+   Total Material
+     Flux                                 -0.0695848 +/- 0.00467541
+ Zernike expansion, Z24,-14
+   Total Material
+     Flux                                 0.0636177 +/- 0.00470824
+ Zernike expansion, Z24,-12
+   Total Material
+     Flux                                 -0.367707 +/- 0.00650412
+ Zernike expansion, Z24,-10
+   Total Material
+     Flux                                 0.222721 +/- 0.00623737
+ Zernike expansion, Z24,-8
+   Total Material
+     Flux                                 0.0639519 +/- 0.00881637
+ Zernike expansion, Z24,-6
+   Total Material
+     Flux                                 -1.32805 +/- 0.00974587
+ Zernike expansion, Z24,-4
+   Total Material
+     Flux                                 0.0503083 +/- 0.0126401
+ Zernike expansion, Z24,-2
+   Total Material
+     Flux                                 -2.44444 +/- 0.0143758
+ Zernike expansion, Z24,0
+   Total Material
+     Flux                                 9.55476 +/- 0.0256744
+ Zernike expansion, Z24,2
+   Total Material
+     Flux                                 1.43542 +/- 0.01128
+ Zernike expansion, Z24,4
+   Total Material
+     Flux                                 -0.413463 +/- 0.011084
+ Zernike expansion, Z24,6
+   Total Material
+     Flux                                 -2.33438 +/- 0.00978727
+ Zernike expansion, Z24,8
+   Total Material
+     Flux                                 0.169374 +/- 0.00817865
+ Zernike expansion, Z24,10
+   Total Material
+     Flux                                 0.0191152 +/- 0.00684336
+ Zernike expansion, Z24,12
+   Total Material
+     Flux                                 -0.0731488 +/- 0.0058878
+ Zernike expansion, Z24,14
+   Total Material
+     Flux                                 0.00199758 +/- 0.00540145
+ Zernike expansion, Z24,16
+   Total Material
+     Flux                                 -0.0125452 +/- 0.00420452
+ Zernike expansion, Z24,18
+   Total Material
+     Flux                                 -0.00504351 +/- 0.00363705
+ Zernike expansion, Z24,20
+   Total Material
+     Flux                                 0.00428183 +/- 0.00322557
+ Zernike expansion, Z24,22
+   Total Material
+     Flux                                 0.000900178 +/- 0.00240639
+ Zernike expansion, Z24,24
+   Total Material
+     Flux                                 -0.0337887 +/- 0.00165134
+ Zernike expansion, Z25,-25
+   Total Material
+     Flux                                 -0.0161376 +/- 0.00156829
+ Zernike expansion, Z25,-23
+   Total Material
+     Flux                                 -0.00813828 +/- 0.00214002
+ Zernike expansion, Z25,-21
+   Total Material
+     Flux                                 -0.000788994 +/- 0.00289708
+ Zernike expansion, Z25,-19
+   Total Material
+     Flux                                 0.000598926 +/- 0.00419179
+ Zernike expansion, Z25,-17
+   Total Material
+     Flux                                 0.00918969 +/- 0.00396946
+ Zernike expansion, Z25,-15
+   Total Material
+     Flux                                 -0.00390886 +/- 0.00518163
+ Zernike expansion, Z25,-13
+   Total Material
+     Flux                                 0.00317872 +/- 0.00572401
+ Zernike expansion, Z25,-11
+   Total Material
+     Flux                                 -0.11371 +/- 0.00632601
+ Zernike expansion, Z25,-9
+   Total Material
+     Flux                                 0.0290229 +/- 0.0086736
+ Zernike expansion, Z25,-7
+   Total Material
+     Flux                                 -0.862142 +/- 0.00868897
+ Zernike expansion, Z25,-5
+   Total Material
+     Flux                                 1.80006 +/- 0.0104405
+ Zernike expansion, Z25,-3
+   Total Material
+     Flux                                 -0.0264143 +/- 0.011435
+ Zernike expansion, Z25,-1
+   Total Material
+     Flux                                 -0.446392 +/- 0.0148499
+ Zernike expansion, Z25,1
+   Total Material
+     Flux                                 1.46297 +/- 0.0119434
+ Zernike expansion, Z25,3
+   Total Material
+     Flux                                 -0.0688558 +/- 0.0123758
+ Zernike expansion, Z25,5
+   Total Material
+     Flux                                 2.68318 +/- 0.010417
+ Zernike expansion, Z25,7
+   Total Material
+     Flux                                 0.181435 +/- 0.0081439
+ Zernike expansion, Z25,9
+   Total Material
+     Flux                                 0.017676 +/- 0.00828914
+ Zernike expansion, Z25,11
+   Total Material
+     Flux                                 0.144773 +/- 0.00703685
+ Zernike expansion, Z25,13
+   Total Material
+     Flux                                 0.126 +/- 0.00557633
+ Zernike expansion, Z25,15
+   Total Material
+     Flux                                 0.00501115 +/- 0.00445497
+ Zernike expansion, Z25,17
+   Total Material
+     Flux                                 -0.084081 +/- 0.00475399
+ Zernike expansion, Z25,19
+   Total Material
+     Flux                                 -0.0557809 +/- 0.00356885
+ Zernike expansion, Z25,21
+   Total Material
+     Flux                                 -0.000114208 +/- 0.00295358
+ Zernike expansion, Z25,23
+   Total Material
+     Flux                                 0.0158431 +/- 0.00218961
+ Zernike expansion, Z25,25
+   Total Material
+     Flux                                 0.00744066 +/- 0.00158978
+ Zernike expansion, Z26,-26
+   Total Material
+     Flux                                 -0.00481204 +/- 0.00124222
+ Zernike expansion, Z26,-24
+   Total Material
+     Flux                                 0.0314787 +/- 0.00212557
+ Zernike expansion, Z26,-22
+   Total Material
+     Flux                                 -0.0145956 +/- 0.00295185
+ Zernike expansion, Z26,-20
+   Total Material
+     Flux                                 0.0267497 +/- 0.00374273
+ Zernike expansion, Z26,-18
+   Total Material
+     Flux                                 -0.163819 +/- 0.00439107
+ Zernike expansion, Z26,-16
+   Total Material
+     Flux                                 0.0603845 +/- 0.00454288
+ Zernike expansion, Z26,-14
+   Total Material
+     Flux                                 -0.0561833 +/- 0.00547854
+ Zernike expansion, Z26,-12
+   Total Material
+     Flux                                 0.352824 +/- 0.00660483
+ Zernike expansion, Z26,-10
+   Total Material
+     Flux                                 -0.223049 +/- 0.00612547
+ Zernike expansion, Z26,-8
+   Total Material
+     Flux                                 -0.0904655 +/- 0.00791301
+ Zernike expansion, Z26,-6
+   Total Material
+     Flux                                 1.12235 +/- 0.00901055
+ Zernike expansion, Z26,-4
+   Total Material
+     Flux                                 -0.169383 +/- 0.010782
+ Zernike expansion, Z26,-2
+   Total Material
+     Flux                                 2.40969 +/- 0.0135496
+ Zernike expansion, Z26,0
+   Total Material
+     Flux                                 -8.78369 +/- 0.0232694
+ Zernike expansion, Z26,2
+   Total Material
+     Flux                                 -1.40445 +/- 0.0106225
+ Zernike expansion, Z26,4
+   Total Material
+     Flux                                 0.290563 +/- 0.0108241
+ Zernike expansion, Z26,6
+   Total Material
+     Flux                                 2.42293 +/- 0.00853866
+ Zernike expansion, Z26,8
+   Total Material
+     Flux                                 -0.130096 +/- 0.00768271
+ Zernike expansion, Z26,10
+   Total Material
+     Flux                                 -0.0285759 +/- 0.00724847
+ Zernike expansion, Z26,12
+   Total Material
+     Flux                                 -0.0533216 +/- 0.00564777
+ Zernike expansion, Z26,14
+   Total Material
+     Flux                                 0.0234626 +/- 0.00549228
+ Zernike expansion, Z26,16
+   Total Material
+     Flux                                 0.0038074 +/- 0.0044853
+ Zernike expansion, Z26,18
+   Total Material
+     Flux                                 -0.0286729 +/- 0.00385733
+ Zernike expansion, Z26,20
+   Total Material
+     Flux                                 -0.00328899 +/- 0.00391824
+ Zernike expansion, Z26,22
+   Total Material
+     Flux                                 0.00734364 +/- 0.00276065
+ Zernike expansion, Z26,24
+   Total Material
+     Flux                                 0.0079023 +/- 0.00224938
+ Zernike expansion, Z26,26
+   Total Material
+     Flux                                 -0.00644001 +/- 0.00148621
+ Zernike expansion, Z27,-27
+   Total Material
+     Flux                                 0.000293849 +/- 0.001009
+ Zernike expansion, Z27,-25
+   Total Material
+     Flux                                 0.00140848 +/- 0.00190091
+ Zernike expansion, Z27,-23
+   Total Material
+     Flux                                 -0.00477975 +/- 0.00275874
+ Zernike expansion, Z27,-21
+   Total Material
+     Flux                                 -0.00115276 +/- 0.0034633
+ Zernike expansion, Z27,-19
+   Total Material
+     Flux                                 -0.00663981 +/- 0.00411342
+ Zernike expansion, Z27,-17
+   Total Material
+     Flux                                 0.00315848 +/- 0.00393154
+ Zernike expansion, Z27,-15
+   Total Material
+     Flux                                 -0.000537021 +/- 0.00517787
+ Zernike expansion, Z27,-13
+   Total Material
+     Flux                                 -0.0434915 +/- 0.00551879
+ Zernike expansion, Z27,-11
+   Total Material
+     Flux                                 0.164731 +/- 0.00669638
+ Zernike expansion, Z27,-9
+   Total Material
+     Flux                                 -0.0337914 +/- 0.007309
+ Zernike expansion, Z27,-7
+   Total Material
+     Flux                                 0.872788 +/- 0.00903198
+ Zernike expansion, Z27,-5
+   Total Material
+     Flux                                 -1.85148 +/- 0.00962871
+ Zernike expansion, Z27,-3
+   Total Material
+     Flux                                 0.0109083 +/- 0.0108167
+ Zernike expansion, Z27,-1
+   Total Material
+     Flux                                 0.423519 +/- 0.013387
+ Zernike expansion, Z27,1
+   Total Material
+     Flux                                 -1.28317 +/- 0.011725
+ Zernike expansion, Z27,3
+   Total Material
+     Flux                                 0.0788918 +/- 0.0125228
+ Zernike expansion, Z27,5
+   Total Material
+     Flux                                 -2.7741 +/- 0.0104702
+ Zernike expansion, Z27,7
+   Total Material
+     Flux                                 -0.206898 +/- 0.0073077
+ Zernike expansion, Z27,9
+   Total Material
+     Flux                                 -0.019124 +/- 0.0080094
+ Zernike expansion, Z27,11
+   Total Material
+     Flux                                 -0.0948571 +/- 0.00667898
+ Zernike expansion, Z27,13
+   Total Material
+     Flux                                 -0.136825 +/- 0.00559155
+ Zernike expansion, Z27,15
+   Total Material
+     Flux                                 -0.000263039 +/- 0.00492958
+ Zernike expansion, Z27,17
+   Total Material
+     Flux                                 0.0856322 +/- 0.00461674
+ Zernike expansion, Z27,19
+   Total Material
+     Flux                                 0.0584737 +/- 0.00438511
+ Zernike expansion, Z27,21
+   Total Material
+     Flux                                 -0.00146462 +/- 0.00338558
+ Zernike expansion, Z27,23
+   Total Material
+     Flux                                 -0.0227904 +/- 0.00243836
+ Zernike expansion, Z27,25
+   Total Material
+     Flux                                 -0.0125974 +/- 0.00216607
+ Zernike expansion, Z27,27
+   Total Material
+     Flux                                 0.000315273 +/- 0.00135971
+ Zernike expansion, Z28,-28
+   Total Material
+     Flux                                 -0.00182136 +/- 0.00126842
+ Zernike expansion, Z28,-26
+   Total Material
+     Flux                                 0.0068726 +/- 0.00191199
+ Zernike expansion, Z28,-24
+   Total Material
+     Flux                                 -0.0480741 +/- 0.00251588
+ Zernike expansion, Z28,-22
+   Total Material
+     Flux                                 0.0210895 +/- 0.00330234
+ Zernike expansion, Z28,-20
+   Total Material
+     Flux                                 -0.0254252 +/- 0.00398872
+ Zernike expansion, Z28,-18
+   Total Material
+     Flux                                 0.16723 +/- 0.00463512
+ Zernike expansion, Z28,-16
+   Total Material
+     Flux                                 -0.0687141 +/- 0.00480481
+ Zernike expansion, Z28,-14
+   Total Material
+     Flux                                 0.080602 +/- 0.00574906
+ Zernike expansion, Z28,-12
+   Total Material
+     Flux                                 -0.3621 +/- 0.00577178
+ Zernike expansion, Z28,-10
+   Total Material
+     Flux                                 0.227533 +/- 0.00691033
+ Zernike expansion, Z28,-8
+   Total Material
+     Flux                                 0.133761 +/- 0.00758887
+ Zernike expansion, Z28,-6
+   Total Material
+     Flux                                 -0.978422 +/- 0.00885724
+ Zernike expansion, Z28,-4
+   Total Material
+     Flux                                 0.282811 +/- 0.0100133
+ Zernike expansion, Z28,-2
+   Total Material
+     Flux                                 -2.35365 +/- 0.0112562
+ Zernike expansion, Z28,0
+   Total Material
+     Flux                                 8.13162 +/- 0.0234929
+ Zernike expansion, Z28,2
+   Total Material
+     Flux                                 1.36849 +/- 0.0118254
+ Zernike expansion, Z28,4
+   Total Material
+     Flux                                 -0.171827 +/- 0.0110178
+ Zernike expansion, Z28,6
+   Total Material
+     Flux                                 -2.39658 +/- 0.00879156
+ Zernike expansion, Z28,8
+   Total Material
+     Flux                                 0.0500384 +/- 0.00776968
+ Zernike expansion, Z28,10
+   Total Material
+     Flux                                 0.0689574 +/- 0.00653158
+ Zernike expansion, Z28,12
+   Total Material
+     Flux                                 0.0865734 +/- 0.00667484
+ Zernike expansion, Z28,14
+   Total Material
+     Flux                                 -0.0539984 +/- 0.00594979
+ Zernike expansion, Z28,16
+   Total Material
+     Flux                                 0.019485 +/- 0.00477834
+ Zernike expansion, Z28,18
+   Total Material
+     Flux                                 0.00289191 +/- 0.00371904
+ Zernike expansion, Z28,20
+   Total Material
+     Flux                                 -0.00920549 +/- 0.00369931
+ Zernike expansion, Z28,22
+   Total Material
+     Flux                                 -0.00188878 +/- 0.00361001
+ Zernike expansion, Z28,24
+   Total Material
+     Flux                                 0.018309 +/- 0.0028241
+ Zernike expansion, Z28,26
+   Total Material
+     Flux                                 -1.65558e-05 +/- 0.00198404
+ Zernike expansion, Z28,28
+   Total Material
+     Flux                                 -0.00819419 +/- 0.00117585
+ Zernike expansion, Z29,-29
+   Total Material
+     Flux                                 0.0109324 +/- 0.00107314
+ Zernike expansion, Z29,-27
+   Total Material
+     Flux                                 -0.00205343 +/- 0.00173615
+ Zernike expansion, Z29,-25
+   Total Material
+     Flux                                 0.011331 +/- 0.00271737
+ Zernike expansion, Z29,-23
+   Total Material
+     Flux                                 -0.00377483 +/- 0.00316955
+ Zernike expansion, Z29,-21
+   Total Material
+     Flux                                 0.00236438 +/- 0.00370109
+ Zernike expansion, Z29,-19
+   Total Material
+     Flux                                 -0.00200906 +/- 0.0038386
+ Zernike expansion, Z29,-17
+   Total Material
+     Flux                                 -0.0275856 +/- 0.00460352
+ Zernike expansion, Z29,-15
+   Total Material
+     Flux                                 -0.00846839 +/- 0.00532849
+ Zernike expansion, Z29,-13
+   Total Material
+     Flux                                 0.0465344 +/- 0.00615885
+ Zernike expansion, Z29,-11
+   Total Material
+     Flux                                 -0.280869 +/- 0.00677935
+ Zernike expansion, Z29,-9
+   Total Material
+     Flux                                 0.0350584 +/- 0.0074329
+ Zernike expansion, Z29,-7
+   Total Material
+     Flux                                 -0.864188 +/- 0.00841251
+ Zernike expansion, Z29,-5
+   Total Material
+     Flux                                 1.87788 +/- 0.00982073
+ Zernike expansion, Z29,-3
+   Total Material
+     Flux                                 0.00137958 +/- 0.0106992
+ Zernike expansion, Z29,-1
+   Total Material
+     Flux                                 -0.41039 +/- 0.0124637
+ Zernike expansion, Z29,1
+   Total Material
+     Flux                                 1.12473 +/- 0.0112557
+ Zernike expansion, Z29,3
+   Total Material
+     Flux                                 -0.0788527 +/- 0.0123134
+ Zernike expansion, Z29,5
+   Total Material
+     Flux                                 2.83488 +/- 0.0102839
+ Zernike expansion, Z29,7
+   Total Material
+     Flux                                 0.287273 +/- 0.00844106
+ Zernike expansion, Z29,9
+   Total Material
+     Flux                                 0.0161478 +/- 0.00830392
+ Zernike expansion, Z29,11
+   Total Material
+     Flux                                 0.0127412 +/- 0.00619008
+ Zernike expansion, Z29,13
+   Total Material
+     Flux                                 0.149954 +/- 0.00601807
+ Zernike expansion, Z29,15
+   Total Material
+     Flux                                 0.0019855 +/- 0.00556829
+ Zernike expansion, Z29,17
+   Total Material
+     Flux                                 -0.106187 +/- 0.00433432
+ Zernike expansion, Z29,19
+   Total Material
+     Flux                                 -0.0606155 +/- 0.0043022
+ Zernike expansion, Z29,21
+   Total Material
+     Flux                                 0.00109914 +/- 0.00377173
+ Zernike expansion, Z29,23
+   Total Material
+     Flux                                 0.0311355 +/- 0.00314119
+ Zernike expansion, Z29,25
+   Total Material
+     Flux                                 0.0183651 +/- 0.00261369
+ Zernike expansion, Z29,27
+   Total Material
+     Flux                                 -0.000969893 +/- 0.00196188
+ Zernike expansion, Z29,29
+   Total Material
+     Flux                                 -0.00183055 +/- 0.00132539
+ Zernike expansion, Z30,-30
+   Total Material
+     Flux                                 7.71348e-05 +/- 0.00120086
+ Zernike expansion, Z30,-28
+   Total Material
+     Flux                                 0.00607092 +/- 0.00197812
+ Zernike expansion, Z30,-26
+   Total Material
+     Flux                                 -0.0116312 +/- 0.00252843
+ Zernike expansion, Z30,-24
+   Total Material
+     Flux                                 0.0651829 +/- 0.00307867
+ Zernike expansion, Z30,-22
+   Total Material
+     Flux                                 -0.0186432 +/- 0.00363694
+ Zernike expansion, Z30,-20
+   Total Material
+     Flux                                 0.0262157 +/- 0.00362263
+ Zernike expansion, Z30,-18
+   Total Material
+     Flux                                 -0.224011 +/- 0.00466854
+ Zernike expansion, Z30,-16
+   Total Material
+     Flux                                 0.0953883 +/- 0.00436652
+ Zernike expansion, Z30,-14
+   Total Material
+     Flux                                 -0.0969006 +/- 0.00613085
+ Zernike expansion, Z30,-12
+   Total Material
+     Flux                                 0.297523 +/- 0.00539269
+ Zernike expansion, Z30,-10
+   Total Material
+     Flux                                 -0.20438 +/- 0.00663531
+ Zernike expansion, Z30,-8
+   Total Material
+     Flux                                 -0.191933 +/- 0.00710355
+ Zernike expansion, Z30,-6
+   Total Material
+     Flux                                 0.862344 +/- 0.00883357
+ Zernike expansion, Z30,-4
+   Total Material
+     Flux                                 -0.372813 +/- 0.00988008
+ Zernike expansion, Z30,-2
+   Total Material
+     Flux                                 2.2924 +/- 0.0107254
+ Zernike expansion, Z30,0
+   Total Material
+     Flux                                 -7.57452 +/- 0.0225102
+ Zernike expansion, Z30,2
+   Total Material
+     Flux                                 -1.34842 +/- 0.01173
+ Zernike expansion, Z30,4
+   Total Material
+     Flux                                 0.0663797 +/- 0.0108477
+ Zernike expansion, Z30,6
+   Total Material
+     Flux                                 2.34172 +/- 0.00896927
+ Zernike expansion, Z30,8
+   Total Material
+     Flux                                 0.0430702 +/- 0.0082458
+ Zernike expansion, Z30,10
+   Total Material
+     Flux                                 -0.107276 +/- 0.00694763
+ Zernike expansion, Z30,12
+   Total Material
+     Flux                                 -0.023448 +/- 0.0068434
+ Zernike expansion, Z30,14
+   Total Material
+     Flux                                 0.0445686 +/- 0.00618478
+ Zernike expansion, Z30,16
+   Total Material
+     Flux                                 -0.0158002 +/- 0.00486207
+ Zernike expansion, Z30,18
+   Total Material
+     Flux                                 0.0380044 +/- 0.00413227
+ Zernike expansion, Z30,20
+   Total Material
+     Flux                                 0.00219385 +/- 0.00393853
+ Zernike expansion, Z30,22
+   Total Material
+     Flux                                 -0.00441521 +/- 0.00375671
+ Zernike expansion, Z30,24
+   Total Material
+     Flux                                 0.00637032 +/- 0.00328297
+ Zernike expansion, Z30,26
+   Total Material
+     Flux                                 0.00114565 +/- 0.00240431
+ Zernike expansion, Z30,28
+   Total Material
+     Flux                                 0.000312615 +/- 0.00165659
+ Zernike expansion, Z30,30
+   Total Material
+     Flux                                 -0.0269019 +/- 0.00132745

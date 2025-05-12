@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <model>
   <materials>
-    <material depletable="true" id="1" name="fuel_inner" temperature="507.5" volume="4481.043668170663">
+    <material depletable="true" id="1" name="fuel_inner" temperature="507.5" volume="0.004481043668170663">
       <density units="kg/m3" value="16058.2182507375"/>
       <nuclide name="Zr90" wo="0.050706117509233165"/>
       <nuclide name="Zr91" wo="0.011180887453100785"/>
@@ -11,7 +11,7 @@
       <nuclide name="U235" wo="0.09699442432578358"/>
       <nuclide name="U238" wo="0.8030055756742165"/>
     </material>
-    <material depletable="true" id="2" name="fuel_middle" temperature="507.5" volume="4929.148034987729">
+    <material depletable="true" id="2" name="fuel_middle" temperature="507.5" volume="0.00492914803498773">
       <density units="kg/m3" value="16058.2182507375"/>
       <nuclide name="Zr90" wo="0.050706117509233165"/>
       <nuclide name="Zr91" wo="0.011180887453100785"/>
@@ -21,7 +21,7 @@
       <nuclide name="U235" wo="0.11036321995419741"/>
       <nuclide name="U238" wo="0.7896367800458026"/>
     </material>
-    <material depletable="true" id="3" name="fuel_outer" temperature="507.5" volume="5377.252401804795">
+    <material depletable="true" id="3" name="fuel_outer" temperature="507.5" volume="0.005377252401804796">
       <density units="kg/m3" value="16058.2182507375"/>
       <nuclide name="Zr90" wo="0.050706117509233165"/>
       <nuclide name="Zr91" wo="0.011180887453100785"/>
@@ -466,8 +466,8 @@
   </geometry>
   <settings>
     <run_mode>eigenvalue</run_mode>
-    <particles>100000</particles>
-    <batches>150</batches>
+    <particles>200000</particles>
+    <batches>250</batches>
     <inactive>50</inactive>
     <source particle="neutron" strength="1.0" type="independent">
       <space type="box">
@@ -488,8 +488,6 @@
       <x>0.0</x>
       <y>0.0</y>
       <r>158.62857142857143</r>
-	  <num_sides>6</num_sides>
-	  <angle>0.5235987755982988</angle>	
     </filter>
     <tally id="1" name="Flux Tally">
       <filters>1</filters>

@@ -2,67 +2,28 @@
     <name>SFR100</name>
     <lifetime>720</lifetime>
     <config>
-      <!-- Inner Fuel -->
+     <!-- Homogenized Fuel Reactor-->
       <Reactor>
         <fuel_incommods> 
-          <val>fresh_sfr_inner</val>
+          <val>fresh_sfr</val>
         </fuel_incommods>
         <fuel_inrecipes> 
-          <val>fresh_sfr_inner</val>
+          <val>fresh_sfr</val>
         </fuel_inrecipes>
         <fuel_outcommods> 
-          <val>spent_sfr_inner</val> 
+          <val>spent_sfr</val> 
         </fuel_outcommods>
         <fuel_outrecipes> 
-          <val>spent_sfr_inner</val> 
+          <val>spent_sfr</val> 
         </fuel_outrecipes>
         <cycle_time>240</cycle_time>
         <refuel_time>1</refuel_time>
-        <assem_size>2.398585907152329</assem_size>
-        <n_assem_core>30</n_assem_core>
-        <n_assem_batch>30</n_assem_batch>
-        <power_cap>100.0</power_cap>
-      </Reactor>
-      <!-- Middle Fuel-->
-      <Reactor>
-        <fuel_incommods> 
-          <val>fresh_sfr_middle</val>
-        </fuel_incommods>
-        <fuel_inrecipes> 
-          <val>fresh_sfr_middle</val>
-        </fuel_inrecipes>
-        <fuel_outcommods> 
-          <val>spent_sfr_middle</val> 
-        </fuel_outcommods>
-        <fuel_outrecipes> 
-          <val>spent_sfr_middle</val> 
-        </fuel_outrecipes>
-        <cycle_time>240</cycle_time>
-        <refuel_time>1</refuel_time>
-        <assem_size>2.398585907152329</assem_size>
-        <n_assem_core>33</n_assem_core>
-        <n_assem_batch>33</n_assem_batch>
-        <power_cap>100.0</power_cap>
-      </Reactor>
-      <!-- Outer Fuel-->
-      <Reactor>
-        <fuel_incommods> 
-          <val>fresh_sfr_outer</val>
-        </fuel_incommods>
-        <fuel_inrecipes> 
-          <val>fresh_sfr_outer</val>
-        </fuel_inrecipes>
-        <fuel_outcommods> 
-          <val>spent_sfr_outer</val> 
-        </fuel_outcommods>
-        <fuel_outrecipes> 
-          <val>spent_sfr_outer</val> 
-        </fuel_outrecipes>
-        <cycle_time>240</cycle_time>
-        <refuel_time>1</refuel_time>
-        <assem_size>2.398585907152329</assem_size>
-        <n_assem_core>36</n_assem_core>
-        <n_assem_batch>36</n_assem_batch>
+		<!-- Total Mass of Spent Fuel -->
+    <!-- 30.16277740631897 is mass of fresh-->
+        <assem_size>30.153832911595255</assem_size>
+		<!-- For simplicity, 1 assembly -->
+        <n_assem_core>1</n_assem_core>
+        <n_assem_batch>1</n_assem_batch>
         <power_cap>100.0</power_cap>
       </Reactor>
     </config>

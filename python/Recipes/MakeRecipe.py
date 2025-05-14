@@ -8,6 +8,7 @@ class Materials2Recipes:
 
         model = openmc.Model.from_model_xml(input_xml)
         self.materials = model.materials
+        #self.materials = openmc.Materials.from_xml(input_xml)
             
         self.name = output_name
 
@@ -16,15 +17,38 @@ class Materials2Recipes:
         
     def read_and_export(self):
         root = etree.Element('recipes')
-        for mat in self.materials:
-            if mat.depletable:
-                recipe = self.recipify(mat)
-                root.append(recipe)
+        mat = self.compressify(self.materials)
+        recipe = self.recipify(mat)
+        root.append(recipe)
         
         recipes = etree.ElementTree(root)
         recipes.write(f'{self.name}.xml', pretty_print=True)
         return
-        
+
+    @staticmethod
+    def compressify(materials):
+        depletable = [mat.depletable for mat in materials]
+        d_materials = list(np.array(materials)[depletable])
+
+        materials_mass = []
+        nuc_mass = {}
+        for mat in d_materials:
+            material_mass = mat.volume*1e-6 * mat.density
+            materials_mass += [material_mass]
+            for nuc, per, pt in mat.nuclides:
+                try:
+                    nuc_mass[nuc] += per * material_mass
+                except:
+                    nuc_mass[nuc] = per * material_mass
+                    
+        material = openmc.Material()
+        for nuc, mass in nuc_mass.items():
+            material.add_nuclide(nuc, mass/ sum(materials_mass), 'wo')
+
+        print(sum(materials_mass))
+        return material
+
+    
     @staticmethod
     def recipify(mat):
         which = set()
@@ -57,7 +81,8 @@ class Materials2Recipes:
             nuclide = etree.Element('nuclide')
             
             _id = etree.Element('id')
-            _id.text = str(zaid)
+            zaid = str(zaid)
+            _id.text = '0'*(5-len(zaid)) + zaid
             nuclide.append(_id)
             
             comp = etree.Element('comp')
@@ -71,8 +96,8 @@ class Materials2Recipes:
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("i")
-    parser.add_argument("o")
+    parser.add_argument("-i")
+    parser.add_argument("-o")
     args = parser.parse_args()
     Materials2Recipes(args.i, args.o)
 

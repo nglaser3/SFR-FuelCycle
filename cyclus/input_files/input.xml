@@ -106,7 +106,36 @@
 	</facility>
 
 	<!-- SFR -->	
-	<xi:include href="reactors/sfr100.xml"/>
+	<facility>
+		<name>SFR100</name>
+		<lifetime>720</lifetime>
+		<config>
+		<!-- Homogenized Fuel Reactor-->
+		<Reactor>
+			<fuel_incommods> 
+			<val>fresh_sfr</val>
+			</fuel_incommods>
+			<fuel_inrecipes> 
+			<val>fresh_sfr</val>
+			</fuel_inrecipes>
+			<fuel_outcommods> 
+			<val>spent_sfr</val> 
+			</fuel_outcommods>
+			<fuel_outrecipes> 
+			<val>spent_sfr</val> 
+			</fuel_outrecipes>
+			<cycle_time>240</cycle_time>
+			<refuel_time>1</refuel_time>
+				<!-- Total Mass of Spent Fuel -->
+			<!-- 30.16277740631897 is mass of fresh-->
+			<assem_size>30153.832911595255</assem_size>
+				<!-- For simplicity, 1 assembly -->
+			<n_assem_core>1</n_assem_core>
+			<n_assem_batch>1</n_assem_batch>
+			<power_cap>100.0</power_cap>
+		</Reactor>
+		</config>
+	</facility>
 
 	<!-- Repo -->
 	<facility>

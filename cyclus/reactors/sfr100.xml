@@ -2,7 +2,7 @@
     <name>SFR100</name>
     <lifetime>720</lifetime>
     <config>
-     <!-- Homogenized Fuel Reactor-->
+      <!-- Homogenized Fuel Reactor-->
       <Reactor>
         <fuel_incommods> 
           <val>fresh_sfr</val>

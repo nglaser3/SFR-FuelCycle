@@ -1,0 +1,10 @@
+digraph G {
+	SFR100
+	Mine
+	Enrichment
+	Repository
+	Mine -> Enrichment [label="u_ore 7.25e+06"]
+	Enrichment -> Repository [label="tails 2.16e+06"]
+	SFR100 -> Repository [label="spent_sfr 6.03e+04"]
+	Enrichment -> SFR100 [label="fresh_sfr 9.05e+04"]
+}

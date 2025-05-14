@@ -1,0 +1,34 @@
+<recipes>
+  <recipe>
+    <name>fresh_sfr</name>
+    <basis>mass</basis>
+    <nuclide>
+      <id>40090</id>
+      <comp>0.050706117509233165</comp>
+    </nuclide>
+    <nuclide>
+      <id>40091</id>
+      <comp>0.011180887453100783</comp>
+    </nuclide>
+    <nuclide>
+      <id>40092</id>
+      <comp>0.01727810146362816</comp>
+    </nuclide>
+    <nuclide>
+      <id>40094</id>
+      <comp>0.017891104342343412</comp>
+    </nuclide>
+    <nuclide>
+      <id>40096</id>
+      <comp>0.002943789231694489</comp>
+    </nuclide>
+    <nuclide>
+      <id>92235</id>
+      <comp>0.1163647712462616</comp>
+    </nuclide>
+    <nuclide>
+      <id>92238</id>
+      <comp>0.7836352287537384</comp>
+    </nuclide>
+  </recipe>
+</recipes>

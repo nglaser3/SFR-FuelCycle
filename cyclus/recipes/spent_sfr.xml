@@ -1,6 +1,6 @@
 <recipes>
   <recipe>
-    <name></name>
+    <name>spent_sfr</name>
     <basis>mass</basis>
     <nuclide>
       <id>89225</id>

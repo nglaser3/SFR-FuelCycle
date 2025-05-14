@@ -1,0 +1,165 @@
+<simulation xml:base="../" xmlns:xi="http://www.w3.org/2001/XInclude">
+<!-- Settings -->
+	<control>
+		<duration>720</duration>
+		<startmonth>1</startmonth>
+		<startyear>2025</startyear>
+		<decay>never</decay>
+	</control>
+
+<!-- Archs -->
+	<archetypes>
+		<spec>
+		<!-- Mine -->
+			<lib>cycamore</lib>
+			<name>Source</name>
+		</spec>
+		<!-- Enrichment facility-->
+		<spec>
+			<lib>cycamore</lib>
+			<name>Enrichment</name>
+		</spec>
+		<!-- the SFR -->
+		<spec>
+			<lib>cycamore</lib>
+			<name>Reactor</name>
+		</spec>
+		<!-- Repo -->
+		<spec>
+			<lib>cycamore</lib>
+			<name>Sink</lib>
+		</spec>
+		<!-- Region -->
+		<spec>
+			<lib>agents</lib>
+			<name>NullRegion</lib>
+		</spec>
+		<!-- Deploy  -->
+		<spec>
+			<lib>agents</lib>
+			<name>NullInst</lib>
+		</spec>
+	</archetypes>
+
+<!-- Commodities -->
+	<commodity>
+		<name>u_ore</name>
+		<solution_priority>1.0</solution_priority>
+	</commodity>
+	<commodity>
+		<name>fresh_sfr</name>
+		<solution_priority>1.0</solution_priority>
+	</commodity>
+	<commodity>
+		<name>tails</name>
+		<solution_priority>1.0</solution_priority>
+	</commodity>
+	<commodity>
+		<name>spent_sfr</name>
+		<solution_priority>1.0</solution_priority>
+	</commodity>
+	
+<!-- Recipes -->
+	<recipe>
+    	<name>nat_u</name>
+    	<basis>mass</basis>
+		<nuclide>
+			<id>92235</id>
+			<comp>0.00711</comp>
+		</nuclide>
+		<nuclide>
+			<id>92238</id>
+			<comp>0.99289</comp>
+		</nuclide>
+	</recipe>
+
+	<xi:include href="./recipes/fresh_sfr.xml"/>
+
+	<xi:include href="./recipes/spent_sfr.xml"/>
+	
+<!-- Facilities -->
+	<!-- mining facility -->
+	<facility>
+		<name>Mine</name>
+		<config>
+			<Source>
+				<outcommod>u_ore</outcommod>
+			<Source>			
+		</config>
+	</facility>
+
+	<!-- Enrichment -->
+	<facility>
+		<name>Enrichment</name>
+		<!-- 3 Enrichments, inventory sums to 5e6 -->
+		<config>
+			<Enrichment>
+				<feed_commod>u_ore</feed_commod>
+				<feed_recipe>nat_u</feed_commod>
+				<product_commod>fresh_sfr</product_commod>
+				<tails_commod>tails</tails_commod>
+				<tails_assay>0.002</tails_assay>
+				<max_enrich>0.1975</max_enrich>
+				<max_feed_inventory>5e6</max_feed_inventory>
+			</Enrichment>
+		</config>
+	</facility>
+
+	<!-- SFR -->	
+	<xi:include href="./reactors/sfr100.xml"/>
+
+	<!-- Repo -->
+	<facility>
+		<name>Repository</name>
+		<config>
+			<Sink>
+				<in_commods>
+					<val>spent_sfr</val>
+					<val>tails</val>
+				</in_commods>
+			</Sink>
+		</config>
+	</facility>	
+	
+	<region>
+		<name>USA</name>
+		<config>
+			<NullRegion/>
+		</config>
+		<institution>
+			<name>SFR_COMPANY</name>
+			<config>
+				<NullInst/>
+			</config>
+			<initialfacilitylist>
+				<entry>
+					<prototype>SFR100</prototype>
+					<number>1</number>
+				</entry>
+			</initialfacilitylist>
+		</institution>
+
+		<institution>
+			<name>United States Nuclear</name>
+			<config>
+				<NullInst/>
+			</config>
+			<initialfacilitylist>
+				<entry>
+					<prototype>Mine</prototype>
+					<number>1</number>
+				</entry>
+				<entry>
+					<prototype>Enrichment</prototype>
+					<number>1</number>
+				</entry>
+				<entry>
+					<prototype>Repository</prototype>
+					<number>1</number>
+				</entry>
+			</initialfacilitylist>
+		</institution>
+	</region>
+</simulation>
+
+

@@ -1,5 +1,4 @@
-<recipes>
-  <recipe>
+<recipe>
     <name>fresh_sfr</name>
     <basis>mass</basis>
     <nuclide>
@@ -30,5 +29,4 @@
       <id>92238</id>
       <comp>0.7836352287537384</comp>
     </nuclide>
-  </recipe>
-</recipes>
+</recipe>

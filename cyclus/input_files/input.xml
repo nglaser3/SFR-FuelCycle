@@ -73,9 +73,9 @@
 		</nuclide>
 	</recipe>
 
-	<xi:include href="./recipes/fresh_sfr.xml"/>
+	<xi:include href="recipes/fresh_sfr.xml"/>
 
-	<xi:include href="./recipes/spent_sfr.xml"/>
+	<xi:include href="recipes/spent_sfr.xml"/>
 	
 <!-- Facilities -->
 	<!-- mining facility -->
@@ -106,7 +106,7 @@
 	</facility>
 
 	<!-- SFR -->	
-	<xi:include href="./reactors/sfr100.xml"/>
+	<xi:include href="reactors/sfr100.xml"/>
 
 	<!-- Repo -->
 	<facility>

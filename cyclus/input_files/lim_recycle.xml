@@ -33,6 +33,11 @@
 			<lib>cycamore</lib>
 			<name>Mixer</name>
 		</spec>
+    <!-- Storage -->
+    <spec>  
+      <lib>cycamore</lib>
+      <name>Storage</name>
+    </spec>
 		<!-- Region -->
 		<spec>
 			<lib>agents</lib>
@@ -90,7 +95,7 @@
     	<basis>mass</basis>
 		<nuclide>
 			<id>92235</id>
-			<comp>0.1292941902736241</comp>
+			<comp>0.129294190273624</comp>
 		</nuclide>
 		<nuclide>
 			<id>92238</id>
@@ -103,11 +108,11 @@
     <basis>mass</basis>
     <nuclide>
       <id>40090</id>
-      <comp>0.5070611750923316</comp>
+      <comp>0.50706117509233165</comp>
     </nuclide>
     <nuclide>
       <id>40091</id>
-      <comp>0.11180887453100784</comp>
+      <comp>0.11180887453100783</comp>
     </nuclide>
     <nuclide>
       <id>40092</id>
@@ -115,11 +120,11 @@
     </nuclide>
     <nuclide>
       <id>40094</id>
-      <comp>0.17891104342343414</comp>
+      <comp>0.17891104342343412</comp>
     </nuclide>
     <nuclide>
       <id>40096</id>
-      <comp>0.029437892316944894</comp>
+      <comp>0.02943789231694489</comp>
     </nuclide>
   </recipe>
 
@@ -148,7 +153,7 @@
     </nuclide>
     <nuclide>
       <id>92235</id>
-      <comp>0.1163647712462616</comp>
+      <comp>0.11636477124626159</comp>
     </nuclide>
     <nuclide>
       <id>92238</id>
@@ -1773,8 +1778,29 @@
           </stream>
         </in_streams>
         <out_commod>fresh_sfr</out_commod>
+        <out_buf_size>1e200</out_buf_size>
+        <throughput>1e200</throughput>
       </Mixer>
     </config>
+  </facility>
+
+  <facility>
+      <name>storage</name>
+      <!-- Spent Fuel Spends ~3 years (36 timesteps) -->
+      <!-- in NPP pools prior to process (carre_overview_2009) -->
+      <config>
+          <Storage>
+              <in_commods>
+                  <val>enriched_u</val>
+              </in_commods>
+              <out_commods>
+                  <val>fresh_sfr</val>
+              </out_commods>
+              <residence_time>1</residence_time>
+              <throughput>1e299</throughput>
+              <max_inv_size>1e299</max_inv_size>
+          </Storage>
+      </config>
   </facility>
 
 	<!-- Enrichment -->
@@ -1789,7 +1815,7 @@
 				<tails_commod>tails</tails_commod>
 				<tails_assay>0.002</tails_assay>
 				<max_enrich>0.1975</max_enrich>
-        <swu_capacity>1e300</swu_capacity>
+        <swu_capacity>1e200</swu_capacity>
 				<max_feed_inventory>5e6</max_feed_inventory>
 			</Enrichment>
 		</config>
@@ -1878,6 +1904,10 @@
 				</entry>
         <entry>
 					<prototype>Fabrication</prototype>
+					<number>1</number>
+				</entry>
+        <entry>
+					<prototype>storage</prototype>
 					<number>1</number>
 				</entry>
 				<entry>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
-  <material depletable="true" id="8">
-    <density units="sum"/>
+  <material depletable="true" id="8" volume="1.0">
+    <density units="g/cm3" value="30153832.911595255"/>
     <nuclide name="Ac225" wo="8.532404819485389e-18"/>
     <nuclide name="Ac226" wo="5.580567617641959e-20"/>
     <nuclide name="Ac227" wo="2.6030931324685663e-13"/>

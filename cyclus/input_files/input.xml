@@ -1,4 +1,4 @@
-<simulation xml:base="../" xmlns:xi="http://www.w3.org/2001/XInclude">
+<simulation>
 <!-- Settings -->
 	<control>
 		<duration>720</duration>

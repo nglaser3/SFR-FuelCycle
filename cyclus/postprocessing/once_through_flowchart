@@ -1,0 +1,10 @@
+digraph G {
+	SFR100
+	Mine
+	Enrichment
+	Repository
+	Mine -> Enrichment [label="Uranium Ore"]
+	Enrichment -> Repository [label="Tails"]
+	SFR100 -> Repository [label="Spent SFR Fuel"]
+	Enrichment -> SFR100 [label="Fresh SFR Fuel"]
+}

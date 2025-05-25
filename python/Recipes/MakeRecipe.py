@@ -17,8 +17,8 @@ class Materials2Recipes:
         
     def read_and_export(self):
         root = etree.Element('recipes')
-        mat = self.compressify(self.materials)
-        recipe = self.recipify(mat)
+        self.mat = self.compressify(self.materials)
+        recipe = self.recipify(self.mat)
         root.append(recipe)
         
         recipes = etree.ElementTree(root)

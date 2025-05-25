@@ -1,0 +1,26 @@
+<recipes>
+  <recipe>
+    <name></name>
+    <basis>mass</basis>
+    <nuclide>
+      <id>40090</id>
+      <comp>0.5070611750923316</comp>
+    </nuclide>
+    <nuclide>
+      <id>40091</id>
+      <comp>0.11180887453100784</comp>
+    </nuclide>
+    <nuclide>
+      <id>40092</id>
+      <comp>0.1727810146362816</comp>
+    </nuclide>
+    <nuclide>
+      <id>40094</id>
+      <comp>0.17891104342343414</comp>
+    </nuclide>
+    <nuclide>
+      <id>40096</id>
+      <comp>0.029437892316944894</comp>
+    </nuclide>
+  </recipe>
+</recipes>

@@ -483,7 +483,7 @@
     <temperature_tolerance>10.0</temperature_tolerance>
   </settings>
   <plots>
-    <plot basis="xy" color_by="cell" filename="core-xs-asmbly-wb.png" id="1" type="slice">
+    <plot basis="xy" color_by="cell" filename="core-xs-asmbly-wb.png" id="34" type="slice">
       <pixels>8000 8000</pixels>
       <mask background="255 255 255" components="50 52 51"/>
       <level>1</level>
@@ -539,28 +539,28 @@
       <color id="48" rgb="255 140 0"/>
       <color id="49" rgb="192 192 192"/>
     </plot>
-    <plot basis="xy" color_by="cell" filename="core-xs-asmbly-bb.png" id="2" type="slice">
+    <plot basis="xy" color_by="cell" filename="core-xs-asmbly-bb.png" id="35" type="slice">
       <pixels>8000 8000</pixels>
       <mask background="255 255 255" components="50 52 51"/>
       <level>1</level>
       <origin>0 0 75.1</origin>
       <width>280.0 280.0</width>
     </plot>
-    <plot basis="xy" color_by="cell" filename="core-xs-asmbly-pc.png" id="3" type="slice">
+    <plot basis="xy" color_by="cell" filename="core-xs-asmbly-pc.png" id="36" type="slice">
       <pixels>8000 8000</pixels>
       <mask background="255 255 255" components="50 52 51"/>
       <level>1</level>
       <origin>0 0 75.0</origin>
       <width>280.0 280.0</width>
     </plot>
-    <plot basis="xy" color_by="cell" filename="core-xs-asmbly-nc.png" id="4" type="slice">
+    <plot basis="xy" color_by="cell" filename="core-xs-asmbly-nc.png" id="37" type="slice">
       <pixels>8000 8000</pixels>
       <mask background="255 255 255" components="50 52 51"/>
       <level>1</level>
       <origin>0 0 1.0</origin>
       <width>280.0 280.0</width>
     </plot>
-    <plot basis="xy" color_by="material" filename="core-xs-mat.png" id="5" type="slice">
+    <plot basis="xy" color_by="material" filename="core-xs-mat.png" id="38" type="slice">
       <pixels>8000 8000</pixels>
       <origin>0 0 75.1</origin>
       <width>280.0 280.0</width>
